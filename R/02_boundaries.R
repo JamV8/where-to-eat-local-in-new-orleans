@@ -84,7 +84,9 @@ part_of_town_names <- c(
   "Planning District 1b" = "French Quarter",
   "Planning District 2"  = "Central City / Garden District",
   "Planning District 3"  = "Uptown / Carrollton",
-  "Planning District 4"  = "Mid-City",
+  # District 4 is officially "Mid-City", but it also holds Tremé and Bayou St. John, where most of
+  # its best restaurants are; the longer label says where a visitor would actually go.
+  "Planning District 4"  = "Mid-City / Tremé / Bayou St. John",
   "Planning District 5"  = "Lakeview",
   "Planning District 6"  = "Gentilly",
   "Planning District 7"  = "Marigny / Bywater",

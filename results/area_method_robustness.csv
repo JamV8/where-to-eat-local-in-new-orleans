@@ -1,25 +1,25 @@
-"restaurants_used","measure","parts_compared","first","second","mid_city_place","mid_city_chance_first","french_quarter_place","french_quarter_chance_top3"
-"ranked: 30+ reviews from active reviewers","average rating of restaurants",7,"Mid-City","Marigny / Bywater",1,0.2878,6,0
-"ranked: 30+ reviews from active reviewers","average over all reviews",7,"Mid-City","Uptown / Carrollton",1,0.3416,6,8e-04
+"restaurants_used","measure","parts_compared","first","second","leader_place","leader_chance_first","french_quarter_place","french_quarter_chance_top3"
+"ranked: 30+ reviews from active reviewers","average rating of restaurants",7,"Mid-City / Tremé / Bayou St. John","Marigny / Bywater",1,0.2878,6,0
+"ranked: 30+ reviews from active reviewers","average over all reviews",7,"Mid-City / Tremé / Bayou St. John","Uptown / Carrollton",1,0.3416,6,8e-04
 "ranked: 30+ reviews from active reviewers","median restaurant rating",7,"Central City / Garden District","Uptown / Carrollton",3,0.4044,6,0.0052
 "ranked: 30+ reviews from active reviewers","share in the city's best 10%",7,"Uptown / Carrollton","Marigny / Bywater",4,0.0998,6,0.1844
-"ranked: 30+ reviews from active reviewers","share in the city's best 20%",7,"Mid-City","Central City / Garden District",1,0.5254,6,0.0116
-"ranked: 30+ reviews from active reviewers","share in the city's best 25%",7,"Mid-City","Central City / Garden District",1,0.6094,6,0.0428
-"ranked: 30+ reviews from active reviewers","share in the city's best 33%",7,"Mid-City","Central City / Garden District",1,0.4222,6,0.0092
+"ranked: 30+ reviews from active reviewers","share in the city's best 20%",7,"Mid-City / Tremé / Bayou St. John","Central City / Garden District",1,0.5254,6,0.0116
+"ranked: 30+ reviews from active reviewers","share in the city's best 25%",7,"Mid-City / Tremé / Bayou St. John","Central City / Garden District",1,0.6094,6,0.0428
+"ranked: 30+ reviews from active reviewers","share in the city's best 33%",7,"Mid-City / Tremé / Bayou St. John","Central City / Garden District",1,0.4222,6,0.0092
 "ranked: 30+ reviews from active reviewers","reviewer-adjusted score",7,"Uptown / Carrollton","Central City / Garden District",3,0.2406,6,2e-04
 "open, 10+ reviews","average rating of restaurants",10,"Gentilly","Uptown / Carrollton",3,0.0298,8,0
 "open, 10+ reviews","average over all reviews",10,"Gentilly","Uptown / Carrollton",3,0.1132,7,0
 "open, 10+ reviews","median restaurant rating",10,"Gentilly","Central City / Garden District",3,0.174,9,4e-04
-"open, 10+ reviews","share in the city's best 10%",10,"Gentilly","Mid-City",2,0.221,7,0.0546
-"open, 10+ reviews","share in the city's best 20%",10,"Uptown / Carrollton","Mid-City",2,0.2018,8,0.007
+"open, 10+ reviews","share in the city's best 10%",10,"Gentilly","Mid-City / Tremé / Bayou St. John",2,0.221,7,0.0546
+"open, 10+ reviews","share in the city's best 20%",10,"Uptown / Carrollton","Mid-City / Tremé / Bayou St. John",2,0.2018,8,0.007
 "open, 10+ reviews","share in the city's best 25%",10,"Gentilly","Uptown / Carrollton",3,0.094,7,0.0122
-"open, 10+ reviews","share in the city's best 33%",10,"Gentilly","Mid-City",2,0.1822,9,0.0032
+"open, 10+ reviews","share in the city's best 33%",10,"Gentilly","Mid-City / Tremé / Bayou St. John",2,0.1822,9,0.0032
 "open, 10+ reviews","reviewer-adjusted score",10,"Uptown / Carrollton","Gentilly",5,0.0212,9,0
-"all open","average rating of restaurants",10,"Gentilly","Mid-City",2,0.1454,9,0
+"all open","average rating of restaurants",10,"Gentilly","Mid-City / Tremé / Bayou St. John",2,0.1454,9,0
 "all open","average over all reviews",10,"Gentilly","Uptown / Carrollton",3,0.1374,7,0
-"all open","median restaurant rating",10,"Gentilly","Mid-City",2,0.2988,9,2e-04
+"all open","median restaurant rating",10,"Gentilly","Mid-City / Tremé / Bayou St. John",2,0.2988,9,2e-04
 "all open","share in the city's best 10%",10,"Algiers","Uptown / Carrollton",3,0.0722,8,0.0474
 "all open","share in the city's best 20%",10,"Uptown / Carrollton","Algiers",3,0.1378,8,0.0034
-"all open","share in the city's best 25%",10,"Uptown / Carrollton","Mid-City",2,0.1614,8,0.0058
-"all open","share in the city's best 33%",10,"Mid-City","Gentilly",1,0.3908,8,0.0046
+"all open","share in the city's best 25%",10,"Uptown / Carrollton","Mid-City / Tremé / Bayou St. John",2,0.1614,8,0.0058
+"all open","share in the city's best 33%",10,"Mid-City / Tremé / Bayou St. John","Gentilly",1,0.3908,8,0.0046
 "all open","reviewer-adjusted score",10,"Uptown / Carrollton","Gentilly",4,0.0246,10,0

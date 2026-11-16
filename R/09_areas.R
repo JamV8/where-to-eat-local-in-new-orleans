@@ -85,6 +85,9 @@ area_scores <- area_scores |>
 
 write.csv(area_scores, "results/area_scores.csv", row.names = FALSE)
 
+# the part of town that comes first on the main measure; the checks below follow it
+leader <- area_scores$part_of_town[1]
+
 # ---- 3. Does the cut-off for "great" matter? --------------------------------------------
 
 area_cutoff_sensitivity <- bind_rows(lapply(c(0.10, 0.20, 0.25, 0.33), function(share) {
@@ -101,8 +104,8 @@ area_cutoff_sensitivity <- bind_rows(lapply(c(0.10, 0.20, 0.25, 0.33), function(
     first_share         = by_area$share_great[1],
     second              = by_area$part_of_town[2],
     second_share        = by_area$share_great[2],
-    mid_city_place      = match("Mid-City", by_area$part_of_town),
-    mid_city_great      = by_area$great[by_area$part_of_town == "Mid-City"],
+    leader_place        = match(leader, by_area$part_of_town),
+    leader_great        = by_area$great[by_area$part_of_town == leader],
     french_quarter_place = match("French Quarter", by_area$part_of_town)
   )
 }))
@@ -111,7 +114,7 @@ write.csv(area_cutoff_sensitivity, "results/area_cutoff_sensitivity.csv", row.na
 
 # ---- 4. 24 other ways of scoring: does one part of town always win? ----------------------
 # If one area were clearly best it would win almost every time. It does not, which is why
-# the report names Mid-City as the most likely best, not as a proven winner.
+# the report names the leader as the most likely best, not as a proven winner.
 
 open_restaurants <- filter(scores, is_open == 1, !is.na(reviews_all))
 restaurant_sets <- list(
@@ -144,8 +147,8 @@ area_method_robustness <- bind_rows(lapply(names(restaurant_sets), function(set_
       parts_compared          = length(observed),
       first                   = names(observed)[1],
       second                  = names(observed)[2],
-      mid_city_place          = match("Mid-City", names(observed)),
-      mid_city_chance_first   = ch$chance_first[ch$part_of_town == "Mid-City"],
+      leader_place            = match(leader, names(observed)),
+      leader_chance_first     = ch$chance_first[ch$part_of_town == leader],
       french_quarter_place    = match("French Quarter", names(observed)),
       french_quarter_chance_top3 = ch$chance_top3[ch$part_of_town == "French Quarter"]
     )
@@ -253,7 +256,8 @@ figure_share <- ggplot(bars, aes(y = part_of_town)) +
            size = 3.1, colour = "grey35") +
   scale_fill_manual(values = c("TRUE" = accent, "FALSE" = "#cfc9b9"), guide = "none") +
   scale_x_continuous(labels = scales::percent, expand = expansion(mult = c(0, 0.14))) +
-  labs(title = "In Mid-City, more than a third of local-food restaurants are among the city's best",
+  labs(title = sprintf("%s leads: %d of its %d local-food restaurants are among the city's best",
+                       leader, bars$great_restaurants[1], bars$restaurants[1]),
        subtitle = sprintf("Share of each area's restaurants that are in the best quarter of the city (average rating of %.2f or more).\nThin line: the range the share could plausibly have. The ranges of the leading areas overlap, so their order is not certain.", great_cut),
        x = "Share of restaurants in the city's best quarter", y = NULL) +
   theme_minimal(base_size = 12) +
@@ -311,9 +315,9 @@ cat(sprintf("Great = average rating of %.3f or more: %d of %d ranked restaurants
 show("Parts of town", area_scores)
 show("Cut-off for 'great'", area_cutoff_sensitivity)
 show("Who comes first under 24 ways of scoring", count(area_method_robustness, first, sort = TRUE))
-show("Mid-City and the French Quarter in the 24 ways",
+show(sprintf("%s and the French Quarter in the 24 ways", leader),
      summarise(area_method_robustness,
-               mid_city_first = sum(mid_city_place == 1), mid_city_top3 = sum(mid_city_place <= 3),
+               leader_first = sum(leader_place == 1), leader_top3 = sum(leader_place <= 3),
                french_quarter_best_place = min(french_quarter_place),
                french_quarter_max_chance_top3 = max(french_quarter_chance_top3)))
 show("Tourist centre against the rest of the city", centre_vs_rest)
