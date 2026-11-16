@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - report.qmd
+
+website:
+  title: "Where to Eat Local in New Orleans"
+  site-url: "https://jamv8.github.io/where-to-eat-local-in-new-orleans/"
+  description: "Where is the best local food in New Orleans, and which part of town is best for finding it? An analysis of the Yelp Open Dataset in R."
+  back-to-top-navigation: true
+  navbar:
+    background: light
+    left:
+      - href: report.qmd
+        text: Report
+  page-footer:
+    center: "Dzhamal Chapanov · MATH 167R, Project 2 · Yelp Open Dataset · R + Quarto"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    code-fold: true
+    code-tools: true
+    code-summary: "Show code"
+    smooth-scroll: true
+    link-external-newwindow: true
+    df-print: kable
+
+execute:
+  echo: true
+  warning: false
+  message: false

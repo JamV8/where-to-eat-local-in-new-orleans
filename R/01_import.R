@@ -6,7 +6,7 @@
 #
 # From the single pass over the review file we keep two things:
 #   1. every review of a Louisiana business (New Orleans is the only Louisiana metro in the dataset);
-#      the exact "New Orleans restaurant" definition is applied later, in 02_clean.R, so changing that
+#      the exact "New Orleans restaurant" definition is applied later, in 03_clean.R, so changing that
 #      definition never requires re-reading 5 GB
 #   2. a per-reviewer, per-state tally of ALL their reviews (count and sum of stars), which lets us
 #      tell locals from visitors and compute a reviewer's overall baseline
