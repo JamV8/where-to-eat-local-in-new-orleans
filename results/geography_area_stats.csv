@@ -1,0 +1,712 @@
+"system","scope","area","restaurants","mean_yelp_stars","reviews","mean_review_stars"
+"Census block groups","all","Tract 1, Block Group 3",1,3.5,169,3.40828402366864
+"Census block groups","all","Tract 100, Block Group 1",2,4.75,21,4.66666666666667
+"Census block groups","all","Tract 100, Block Group 2",1,3,14,2.92857142857143
+"Census block groups","all","Tract 101, Block Group 2",3,4,373,3.79892761394102
+"Census block groups","all","Tract 102, Block Group 1",1,4,16,4.1875
+"Census block groups","all","Tract 102, Block Group 3",2,3.25,83,3.02409638554217
+"Census block groups","all","Tract 103, Block Group 1",1,4,12,3.75
+"Census block groups","all","Tract 103, Block Group 2",2,4.5,34,4.55882352941176
+"Census block groups","all","Tract 106, Block Group 1",1,4.5,343,4.36734693877551
+"Census block groups","all","Tract 106, Block Group 2",1,4,590,4.15423728813559
+"Census block groups","all","Tract 107, Block Group 2",5,4.4,495,4.43434343434343
+"Census block groups","all","Tract 109, Block Group 2",1,3.5,525,3.68380952380952
+"Census block groups","all","Tract 109, Block Group 3",1,4,196,4.06632653061224
+"Census block groups","all","Tract 11, Block Group 1",1,3.5,6,3.66666666666667
+"Census block groups","all","Tract 11, Block Group 2",3,4.16666666666667,1643,4.29945222154595
+"Census block groups","all","Tract 111, Block Group 1",2,4,707,4.09476661951909
+"Census block groups","all","Tract 111, Block Group 2",2,4.25,300,4.15
+"Census block groups","all","Tract 114, Block Group 1",3,3.83333333333333,525,3.80190476190476
+"Census block groups","all","Tract 115, Block Group 2",2,4.25,376,4.14627659574468
+"Census block groups","all","Tract 12, Block Group 1",5,4,2284,4.0284588441331
+"Census block groups","all","Tract 12, Block Group 2",3,4.16666666666667,305,3.98688524590164
+"Census block groups","all","Tract 12, Block Group 3",1,4,202,4.06435643564356
+"Census block groups","all","Tract 120, Block Group 1",1,3,7,3.14285714285714
+"Census block groups","all","Tract 120, Block Group 2",1,3.5,12,3.58333333333333
+"Census block groups","all","Tract 121.02, Block Group 1",1,4.5,94,4.28723404255319
+"Census block groups","all","Tract 125, Block Group 1",1,4,528,3.84090909090909
+"Census block groups","all","Tract 126, Block Group 2",2,4.25,104,4.10576923076923
+"Census block groups","all","Tract 129, Block Group 1",12,4.125,4324,4.31036077705828
+"Census block groups","all","Tract 129, Block Group 2",3,4,198,4.0959595959596
+"Census block groups","all","Tract 13.01, Block Group 1",2,3.75,106,4.20754716981132
+"Census block groups","all","Tract 13.01, Block Group 2",1,4,57,4.17543859649123
+"Census block groups","all","Tract 13.02, Block Group 1",1,5,5,5
+"Census block groups","all","Tract 130, Block Group 2",3,3.83333333333333,917,4.04034896401309
+"Census block groups","all","Tract 133.01, Block Group 4",5,3.5,1683,3.56862745098039
+"Census block groups","all","Tract 133.02, Block Group 1",1,4,5,3.8
+"Census block groups","all","Tract 133.02, Block Group 3",1,3.5,213,3.65258215962441
+"Census block groups","all","Tract 134, Block Group 1",27,3.68518518518519,9188,4.02688289072703
+"Census block groups","all","Tract 134, Block Group 2",18,3.86111111111111,5498,4.07639141506002
+"Census block groups","all","Tract 134, Block Group 3",32,3.765625,23152,3.90437111264686
+"Census block groups","all","Tract 134, Block Group 4",25,3.48,16313,3.6062036412677
+"Census block groups","all","Tract 135.01, Block Group 1",34,3.75,17248,3.94352968460111
+"Census block groups","all","Tract 135.01, Block Group 2",5,4.1,2099,4.12434492615531
+"Census block groups","all","Tract 135.02, Block Group 1",54,3.73148148148148,52457,3.8742970432926
+"Census block groups","all","Tract 135.02, Block Group 2",41,3.51219512195122,16933,3.87314710919506
+"Census block groups","all","Tract 137.01, Block Group 1",3,3.66666666666667,134,3.67164179104478
+"Census block groups","all","Tract 137.02, Block Group 1",1,2.5,22,2.68181818181818
+"Census block groups","all","Tract 138, Block Group 1",1,4,44,4.04545454545455
+"Census block groups","all","Tract 139, Block Group 1",3,4.33333333333333,1081,4.05642923219241
+"Census block groups","all","Tract 139, Block Group 2",11,4.18181818181818,2406,4.10847880299252
+"Census block groups","all","Tract 140, Block Group 2",4,3.5,180,4.13333333333333
+"Census block groups","all","Tract 140, Block Group 3",1,4,103,3.83495145631068
+"Census block groups","all","Tract 141.02, Block Group 1",1,4,18,4.05555555555556
+"Census block groups","all","Tract 142, Block Group 2",2,3,541,4.14232902033272
+"Census block groups","all","Tract 143, Block Group 1",1,4.5,28,4.46428571428571
+"Census block groups","all","Tract 144, Block Group 1",1,4,67,3.94029850746269
+"Census block groups","all","Tract 144, Block Group 2",1,4,363,3.99449035812672
+"Census block groups","all","Tract 15, Block Group 1",1,3.5,5,3.6
+"Census block groups","all","Tract 15, Block Group 2",1,4,18,3.88888888888889
+"Census block groups","all","Tract 17.01, Block Group 2",2,4.25,55,4.36363636363636
+"Census block groups","all","Tract 17.2, Block Group 4",3,3.33333333333333,43,3.58139534883721
+"Census block groups","all","Tract 17.23, Block Group 1",1,4,71,3.84507042253521
+"Census block groups","all","Tract 17.24, Block Group 1",2,4.25,68,4.25
+"Census block groups","all","Tract 17.36, Block Group 1",2,3.5,35,3.68571428571429
+"Census block groups","all","Tract 17.36, Block Group 2",3,3.5,226,4.01769911504425
+"Census block groups","all","Tract 17.37, Block Group 3",2,4.5,240,4.47916666666667
+"Census block groups","all","Tract 17.4, Block Group 2",1,3.5,42,3.57142857142857
+"Census block groups","all","Tract 17.41, Block Group 1",1,4.5,19,4.42105263157895
+"Census block groups","all","Tract 17.44, Block Group 1",2,3.75,75,3.56
+"Census block groups","all","Tract 17.47, Block Group 1",1,4,18,4.05555555555556
+"Census block groups","all","Tract 17.47, Block Group 2",5,3.5,347,3.53025936599424
+"Census block groups","all","Tract 17.48, Block Group 1",1,3.5,9,3.66666666666667
+"Census block groups","all","Tract 17.51, Block Group 1",2,3.5,104,3.70192307692308
+"Census block groups","all","Tract 17.51, Block Group 2",2,3.5,62,3.74193548387097
+"Census block groups","all","Tract 17.54, Block Group 1",1,3.5,13,3.61538461538462
+"Census block groups","all","Tract 18, Block Group 1",3,4.5,1335,4.11685393258427
+"Census block groups","all","Tract 18, Block Group 2",1,4,187,4.0427807486631
+"Census block groups","all","Tract 19, Block Group 1",4,4.125,786,4.21119592875318
+"Census block groups","all","Tract 19, Block Group 3",2,4,684,3.67543859649123
+"Census block groups","all","Tract 2, Block Group 2",3,4.83333333333333,20,4.75
+"Census block groups","all","Tract 20, Block Group 2",1,4.5,25,4.28
+"Census block groups","all","Tract 23, Block Group 2",2,3,224,3.80357142857143
+"Census block groups","all","Tract 24.02, Block Group 1",1,4,22,4.22727272727273
+"Census block groups","all","Tract 25.04, Block Group 3",2,4.25,144,4.30555555555556
+"Census block groups","all","Tract 26, Block Group 1",4,4.125,239,4.21757322175732
+"Census block groups","all","Tract 26, Block Group 2",11,3.81818181818182,3408,3.82658450704225
+"Census block groups","all","Tract 27, Block Group 1",2,4.25,33,4.39393939393939
+"Census block groups","all","Tract 29, Block Group 1",1,5,25,4.76
+"Census block groups","all","Tract 31, Block Group 2",1,4,61,4.18032786885246
+"Census block groups","all","Tract 33.04, Block Group 2",2,4.25,90,4.16666666666667
+"Census block groups","all","Tract 33.08, Block Group 1",1,4,22,4.04545454545455
+"Census block groups","all","Tract 33.08, Block Group 2",1,4,9,4.11111111111111
+"Census block groups","all","Tract 34, Block Group 1",4,4.625,1206,4.20563847429519
+"Census block groups","all","Tract 35, Block Group 1",1,4.5,65,4.30769230769231
+"Census block groups","all","Tract 36, Block Group 1",3,3.66666666666667,266,3.78195488721805
+"Census block groups","all","Tract 36, Block Group 2",1,4,16,4
+"Census block groups","all","Tract 37.01, Block Group 1",1,5,6,5
+"Census block groups","all","Tract 37.02, Block Group 1",3,4.33333333333333,63,4.3015873015873
+"Census block groups","all","Tract 37.02, Block Group 2",1,5,7,4.85714285714286
+"Census block groups","all","Tract 37.02, Block Group 3",3,3.5,325,4.16307692307692
+"Census block groups","all","Tract 38, Block Group 2",27,3.75925925925926,9484,3.70054829185997
+"Census block groups","all","Tract 39, Block Group 1",1,4.5,669,4.26756352765321
+"Census block groups","all","Tract 39, Block Group 2",3,4.16666666666667,158,4.30379746835443
+"Census block groups","all","Tract 40, Block Group 1",1,3.5,5,3.6
+"Census block groups","all","Tract 40, Block Group 2",1,4.5,27,4.18518518518519
+"Census block groups","all","Tract 41, Block Group 1",3,4.5,432,4.69675925925926
+"Census block groups","all","Tract 44.01, Block Group 2",3,4.16666666666667,4470,4.15615212527964
+"Census block groups","all","Tract 45, Block Group 3",1,4.5,2223,4.46513720197931
+"Census block groups","all","Tract 46, Block Group 1",1,4,306,3.88562091503268
+"Census block groups","all","Tract 46, Block Group 2",1,4,611,3.93126022913257
+"Census block groups","all","Tract 49, Block Group 1",4,3,115,3.61739130434783
+"Census block groups","all","Tract 49, Block Group 2",5,4,310,4.18709677419355
+"Census block groups","all","Tract 50, Block Group 1",7,3.71428571428571,3877,4.03456280629353
+"Census block groups","all","Tract 54, Block Group 1",1,4,36,4
+"Census block groups","all","Tract 54, Block Group 2",2,4,490,4.03469387755102
+"Census block groups","all","Tract 54, Block Group 3",2,3.75,572,3.95629370629371
+"Census block groups","all","Tract 56.01, Block Group 2",1,3,72,3.18055555555556
+"Census block groups","all","Tract 56.02, Block Group 3",2,3.75,102,4.09803921568627
+"Census block groups","all","Tract 56.04, Block Group 1",2,3.75,147,4.03401360544218
+"Census block groups","all","Tract 6.04, Block Group 1",1,4.5,9,4.33333333333333
+"Census block groups","all","Tract 6.04, Block Group 2",2,4,28,3.92857142857143
+"Census block groups","all","Tract 6.06, Block Group 1",3,4.5,117,4.25641025641026
+"Census block groups","all","Tract 6.11, Block Group 2",1,3,7,3.14285714285714
+"Census block groups","all","Tract 6.2, Block Group 2",1,3,41,2.95121951219512
+"Census block groups","all","Tract 60, Block Group 2",1,4.5,306,4.6437908496732
+"Census block groups","all","Tract 63, Block Group 2",1,4,135,3.97777777777778
+"Census block groups","all","Tract 63, Block Group 3",1,4,923,4.19284940411701
+"Census block groups","all","Tract 64, Block Group 1",2,3.75,1218,3.79885057471264
+"Census block groups","all","Tract 65, Block Group 2",1,3.5,621,3.71980676328502
+"Census block groups","all","Tract 65, Block Group 3",1,3.5,147,3.72108843537415
+"Census block groups","all","Tract 71.01, Block Group 1",2,4,47,3.85106382978723
+"Census block groups","all","Tract 71.01, Block Group 2",4,4.25,223,4.31838565022422
+"Census block groups","all","Tract 72, Block Group 1",1,4,242,4.17768595041322
+"Census block groups","all","Tract 72, Block Group 2",1,4,90,3.87777777777778
+"Census block groups","all","Tract 72, Block Group 3",2,4,103,3.92233009708738
+"Census block groups","all","Tract 76.04, Block Group 2",1,4,62,3.85483870967742
+"Census block groups","all","Tract 76.07, Block Group 2",1,4.5,55,4.50909090909091
+"Census block groups","all","Tract 76.08, Block Group 2",2,3.25,324,3.21604938271605
+"Census block groups","all","Tract 77, Block Group 1",1,3.5,47,3.80851063829787
+"Census block groups","all","Tract 77, Block Group 2",2,4,114,3.97368421052632
+"Census block groups","all","Tract 77, Block Group 3",20,3.925,11713,4.19072825066166
+"Census block groups","all","Tract 8, Block Group 2",1,4.5,155,4.38709677419355
+"Census block groups","all","Tract 82, Block Group 1",1,3.5,77,3.61038961038961
+"Census block groups","all","Tract 82, Block Group 2",9,3.66666666666667,2326,4.08297506448839
+"Census block groups","all","Tract 83, Block Group 1",1,3,169,2.85207100591716
+"Census block groups","all","Tract 84, Block Group 1",8,3.625,1812,3.65066225165563
+"Census block groups","all","Tract 86, Block Group 2",1,4.5,579,4.73920552677029
+"Census block groups","all","Tract 88, Block Group 1",2,4.5,589,4.1578947368421
+"Census block groups","all","Tract 88, Block Group 2",2,3.25,772,3.80958549222798
+"Census block groups","all","Tract 9.04, Block Group 1",1,4.5,23,4.39130434782609
+"Census block groups","all","Tract 90, Block Group 1",1,4.5,4969,4.29201046488227
+"Census block groups","all","Tract 90, Block Group 2",1,3.5,415,3.68433734939759
+"Census block groups","all","Tract 90, Block Group 3",2,3.75,1042,3.8809980806142
+"Census block groups","all","Tract 91, Block Group 3",1,5,17,4.88235294117647
+"Census block groups","all","Tract 92, Block Group 2",1,4,17,4.17647058823529
+"Census block groups","all","Tract 94, Block Group 2",1,4,168,4.11309523809524
+"Census block groups","all","Tract 96, Block Group 2",5,3.9,4520,4.10907079646018
+"Census block groups","all","Tract 97, Block Group 1",5,3.7,1505,4.08372093023256
+"Census block groups","all","Tract 9800, Block Group 1",1,4.5,21,4.23809523809524
+"Census block groups","all","Tract 99, Block Group 1",4,4,817,3.97919216646267
+"Census block groups","all","Tract 99, Block Group 2",1,3,7,3
+"Census block groups","all","Tract 99, Block Group 3",2,3.75,1731,4.08549971114962
+"Census block groups","open","Tract 1, Block Group 3",1,3.5,169,3.40828402366864
+"Census block groups","open","Tract 100, Block Group 1",2,4.75,21,4.66666666666667
+"Census block groups","open","Tract 101, Block Group 2",3,4,373,3.79892761394102
+"Census block groups","open","Tract 102, Block Group 1",1,4,16,4.1875
+"Census block groups","open","Tract 102, Block Group 3",1,2,51,2.13725490196078
+"Census block groups","open","Tract 103, Block Group 2",1,4.5,29,4.55172413793103
+"Census block groups","open","Tract 106, Block Group 1",1,4.5,343,4.36734693877551
+"Census block groups","open","Tract 106, Block Group 2",1,4,590,4.15423728813559
+"Census block groups","open","Tract 107, Block Group 2",2,4.75,37,4.62162162162162
+"Census block groups","open","Tract 109, Block Group 2",1,3.5,525,3.68380952380952
+"Census block groups","open","Tract 109, Block Group 3",1,4,196,4.06632653061224
+"Census block groups","open","Tract 11, Block Group 1",1,3.5,6,3.66666666666667
+"Census block groups","open","Tract 11, Block Group 2",3,4.16666666666667,1643,4.29945222154595
+"Census block groups","open","Tract 111, Block Group 1",2,4,707,4.09476661951909
+"Census block groups","open","Tract 114, Block Group 1",2,4,439,3.88154897494305
+"Census block groups","open","Tract 115, Block Group 2",1,4,322,4.11490683229814
+"Census block groups","open","Tract 12, Block Group 1",2,4,1963,4.03209373408049
+"Census block groups","open","Tract 12, Block Group 3",1,4,202,4.06435643564356
+"Census block groups","open","Tract 120, Block Group 1",1,3,7,3.14285714285714
+"Census block groups","open","Tract 121.02, Block Group 1",1,4.5,94,4.28723404255319
+"Census block groups","open","Tract 125, Block Group 1",1,4,528,3.84090909090909
+"Census block groups","open","Tract 126, Block Group 2",1,4,73,3.95890410958904
+"Census block groups","open","Tract 129, Block Group 1",3,4.33333333333333,3003,4.35064935064935
+"Census block groups","open","Tract 129, Block Group 2",2,4,94,4.19148936170213
+"Census block groups","open","Tract 13.01, Block Group 2",1,4,57,4.17543859649123
+"Census block groups","open","Tract 13.02, Block Group 1",1,5,5,5
+"Census block groups","open","Tract 130, Block Group 2",3,3.83333333333333,917,4.04034896401309
+"Census block groups","open","Tract 133.01, Block Group 4",4,3.625,1501,3.62425049966689
+"Census block groups","open","Tract 133.02, Block Group 1",1,4,5,3.8
+"Census block groups","open","Tract 134, Block Group 1",15,3.7,7929,4.0607895068735
+"Census block groups","open","Tract 134, Block Group 2",10,4.05,3860,4.12901554404145
+"Census block groups","open","Tract 134, Block Group 3",22,3.77272727272727,22323,3.92039600412131
+"Census block groups","open","Tract 134, Block Group 4",16,3.59375,14919,3.64139687646625
+"Census block groups","open","Tract 135.01, Block Group 1",24,3.83333333333333,16480,3.94902912621359
+"Census block groups","open","Tract 135.01, Block Group 2",2,3.75,245,3.28571428571429
+"Census block groups","open","Tract 135.02, Block Group 1",36,3.76388888888889,47991,3.8861869933946
+"Census block groups","open","Tract 135.02, Block Group 2",20,3.6,11962,3.97542217020565
+"Census block groups","open","Tract 137.01, Block Group 1",2,3.75,86,3.73255813953488
+"Census block groups","open","Tract 137.02, Block Group 1",1,2.5,22,2.68181818181818
+"Census block groups","open","Tract 138, Block Group 1",1,4,44,4.04545454545455
+"Census block groups","open","Tract 139, Block Group 1",2,4,1061,4.04241281809614
+"Census block groups","open","Tract 139, Block Group 2",5,4.4,1614,4.24163568773234
+"Census block groups","open","Tract 140, Block Group 2",4,3.5,180,4.13333333333333
+"Census block groups","open","Tract 140, Block Group 3",1,4,103,3.83495145631068
+"Census block groups","open","Tract 141.02, Block Group 1",1,4,18,4.05555555555556
+"Census block groups","open","Tract 142, Block Group 2",1,4,527,4.19924098671727
+"Census block groups","open","Tract 143, Block Group 1",1,4.5,28,4.46428571428571
+"Census block groups","open","Tract 15, Block Group 1",1,3.5,5,3.6
+"Census block groups","open","Tract 17.01, Block Group 2",1,4.5,22,4.54545454545455
+"Census block groups","open","Tract 17.2, Block Group 4",3,3.33333333333333,43,3.58139534883721
+"Census block groups","open","Tract 17.23, Block Group 1",1,4,71,3.84507042253521
+"Census block groups","open","Tract 17.24, Block Group 1",2,4.25,68,4.25
+"Census block groups","open","Tract 17.36, Block Group 1",2,3.5,35,3.68571428571429
+"Census block groups","open","Tract 17.36, Block Group 2",1,3,16,2.75
+"Census block groups","open","Tract 17.37, Block Group 3",2,4.5,240,4.47916666666667
+"Census block groups","open","Tract 17.4, Block Group 2",1,3.5,42,3.57142857142857
+"Census block groups","open","Tract 17.41, Block Group 1",1,4.5,19,4.42105263157895
+"Census block groups","open","Tract 17.44, Block Group 1",2,3.75,75,3.56
+"Census block groups","open","Tract 17.47, Block Group 1",1,4,18,4.05555555555556
+"Census block groups","open","Tract 17.47, Block Group 2",5,3.5,347,3.53025936599424
+"Census block groups","open","Tract 17.48, Block Group 1",1,3.5,9,3.66666666666667
+"Census block groups","open","Tract 17.51, Block Group 1",1,3.5,94,3.71276595744681
+"Census block groups","open","Tract 17.51, Block Group 2",1,4,42,4.19047619047619
+"Census block groups","open","Tract 18, Block Group 1",2,4.25,1326,4.11161387631976
+"Census block groups","open","Tract 18, Block Group 2",1,4,187,4.0427807486631
+"Census block groups","open","Tract 19, Block Group 1",2,4,679,4.20913107511046
+"Census block groups","open","Tract 19, Block Group 3",1,3.5,579,3.55785837651123
+"Census block groups","open","Tract 2, Block Group 2",1,5,5,5
+"Census block groups","open","Tract 23, Block Group 2",2,3,224,3.80357142857143
+"Census block groups","open","Tract 24.02, Block Group 1",1,4,22,4.22727272727273
+"Census block groups","open","Tract 25.04, Block Group 3",1,4,43,4.16279069767442
+"Census block groups","open","Tract 26, Block Group 1",3,4.33333333333333,218,4.27981651376147
+"Census block groups","open","Tract 26, Block Group 2",6,3.83333333333333,2404,3.97254575707155
+"Census block groups","open","Tract 27, Block Group 1",1,4.5,23,4.52173913043478
+"Census block groups","open","Tract 29, Block Group 1",1,5,25,4.76
+"Census block groups","open","Tract 31, Block Group 2",1,4,61,4.18032786885246
+"Census block groups","open","Tract 33.04, Block Group 2",1,4,83,4.1566265060241
+"Census block groups","open","Tract 33.08, Block Group 1",1,4,22,4.04545454545455
+"Census block groups","open","Tract 33.08, Block Group 2",1,4,9,4.11111111111111
+"Census block groups","open","Tract 34, Block Group 1",4,4.625,1206,4.20563847429519
+"Census block groups","open","Tract 35, Block Group 1",1,4.5,65,4.30769230769231
+"Census block groups","open","Tract 36, Block Group 1",3,3.66666666666667,266,3.78195488721805
+"Census block groups","open","Tract 36, Block Group 2",1,4,16,4
+"Census block groups","open","Tract 37.02, Block Group 1",2,4.25,39,4.28205128205128
+"Census block groups","open","Tract 37.02, Block Group 3",2,4.5,312,4.27884615384615
+"Census block groups","open","Tract 38, Block Group 2",16,3.5625,7931,3.65704198713907
+"Census block groups","open","Tract 39, Block Group 1",1,4.5,669,4.26756352765321
+"Census block groups","open","Tract 39, Block Group 2",1,4,31,4.19354838709677
+"Census block groups","open","Tract 40, Block Group 2",1,4.5,27,4.18518518518519
+"Census block groups","open","Tract 41, Block Group 1",2,4.5,426,4.69953051643192
+"Census block groups","open","Tract 44.01, Block Group 2",3,4.16666666666667,4470,4.15615212527964
+"Census block groups","open","Tract 45, Block Group 3",1,4.5,2223,4.46513720197931
+"Census block groups","open","Tract 46, Block Group 1",1,4,306,3.88562091503268
+"Census block groups","open","Tract 46, Block Group 2",1,4,611,3.93126022913257
+"Census block groups","open","Tract 49, Block Group 1",1,4,68,3.91176470588235
+"Census block groups","open","Tract 49, Block Group 2",4,3.875,276,4.14130434782609
+"Census block groups","open","Tract 50, Block Group 1",6,3.83333333333333,3813,4.04799370574351
+"Census block groups","open","Tract 54, Block Group 2",2,4,490,4.03469387755102
+"Census block groups","open","Tract 54, Block Group 3",2,3.75,572,3.95629370629371
+"Census block groups","open","Tract 56.02, Block Group 3",1,3.5,14,3.78571428571429
+"Census block groups","open","Tract 56.04, Block Group 1",1,4,114,4.18421052631579
+"Census block groups","open","Tract 6.04, Block Group 2",2,4,28,3.92857142857143
+"Census block groups","open","Tract 6.06, Block Group 1",3,4.5,117,4.25641025641026
+"Census block groups","open","Tract 6.11, Block Group 2",1,3,7,3.14285714285714
+"Census block groups","open","Tract 6.2, Block Group 2",1,3,41,2.95121951219512
+"Census block groups","open","Tract 63, Block Group 2",1,4,135,3.97777777777778
+"Census block groups","open","Tract 63, Block Group 3",1,4,923,4.19284940411701
+"Census block groups","open","Tract 64, Block Group 1",2,3.75,1218,3.79885057471264
+"Census block groups","open","Tract 65, Block Group 2",1,3.5,621,3.71980676328502
+"Census block groups","open","Tract 71.01, Block Group 1",1,3.5,40,3.7
+"Census block groups","open","Tract 71.01, Block Group 2",2,4.25,127,4.32283464566929
+"Census block groups","open","Tract 72, Block Group 1",1,4,242,4.17768595041322
+"Census block groups","open","Tract 72, Block Group 3",1,3.5,70,3.6
+"Census block groups","open","Tract 76.04, Block Group 2",1,4,62,3.85483870967742
+"Census block groups","open","Tract 76.08, Block Group 2",2,3.25,324,3.21604938271605
+"Census block groups","open","Tract 77, Block Group 1",1,3.5,47,3.80851063829787
+"Census block groups","open","Tract 77, Block Group 2",1,4.5,42,4.28571428571429
+"Census block groups","open","Tract 77, Block Group 3",11,4.09090909090909,11076,4.20133622246298
+"Census block groups","open","Tract 8, Block Group 2",1,4.5,155,4.38709677419355
+"Census block groups","open","Tract 82, Block Group 2",5,3.6,1851,4.08373851971907
+"Census block groups","open","Tract 83, Block Group 1",1,3,169,2.85207100591716
+"Census block groups","open","Tract 84, Block Group 1",4,4.125,894,4.15548098434004
+"Census block groups","open","Tract 86, Block Group 2",1,4.5,579,4.73920552677029
+"Census block groups","open","Tract 88, Block Group 1",2,4.5,589,4.1578947368421
+"Census block groups","open","Tract 88, Block Group 2",1,4,630,4.07301587301587
+"Census block groups","open","Tract 9.04, Block Group 1",1,4.5,23,4.39130434782609
+"Census block groups","open","Tract 90, Block Group 1",1,4.5,4969,4.29201046488227
+"Census block groups","open","Tract 90, Block Group 2",1,3.5,415,3.68433734939759
+"Census block groups","open","Tract 90, Block Group 3",1,4,748,3.95053475935829
+"Census block groups","open","Tract 92, Block Group 2",1,4,17,4.17647058823529
+"Census block groups","open","Tract 94, Block Group 2",1,4,168,4.11309523809524
+"Census block groups","open","Tract 96, Block Group 2",5,3.9,4520,4.10907079646018
+"Census block groups","open","Tract 97, Block Group 1",3,4.16666666666667,1339,4.15683345780433
+"Census block groups","open","Tract 9800, Block Group 1",1,4.5,21,4.23809523809524
+"Census block groups","open","Tract 99, Block Group 1",2,4.25,444,3.82882882882883
+"Census block groups","open","Tract 99, Block Group 3",2,3.75,1731,4.08549971114962
+"Census tracts","all","Census Tract 1",1,3.5,169,3.40828402366864
+"Census tracts","all","Census Tract 100",3,4.16666666666667,35,3.97142857142857
+"Census tracts","all","Census Tract 101",3,4,373,3.79892761394102
+"Census tracts","all","Census Tract 102",3,3.5,99,3.21212121212121
+"Census tracts","all","Census Tract 103",3,4.33333333333333,46,4.34782608695652
+"Census tracts","all","Census Tract 106",2,4.25,933,4.23258306538049
+"Census tracts","all","Census Tract 107",5,4.4,495,4.43434343434343
+"Census tracts","all","Census Tract 109",2,3.75,721,3.7877947295423
+"Census tracts","all","Census Tract 11",4,4,1649,4.29714978775015
+"Census tracts","all","Census Tract 111",4,4.125,1007,4.11122144985104
+"Census tracts","all","Census Tract 114",3,3.83333333333333,525,3.80190476190476
+"Census tracts","all","Census Tract 115",2,4.25,376,4.14627659574468
+"Census tracts","all","Census Tract 12",9,4.05555555555556,2791,4.02651379433895
+"Census tracts","all","Census Tract 120",2,3.25,19,3.42105263157895
+"Census tracts","all","Census Tract 121.02",1,4.5,94,4.28723404255319
+"Census tracts","all","Census Tract 125",1,4,528,3.84090909090909
+"Census tracts","all","Census Tract 126",2,4.25,104,4.10576923076923
+"Census tracts","all","Census Tract 129",15,4.1,4522,4.30097302078726
+"Census tracts","all","Census Tract 13.01",3,3.83333333333333,163,4.19631901840491
+"Census tracts","all","Census Tract 13.02",1,5,5,5
+"Census tracts","all","Census Tract 130",3,3.83333333333333,917,4.04034896401309
+"Census tracts","all","Census Tract 133.01",5,3.5,1683,3.56862745098039
+"Census tracts","all","Census Tract 133.02",2,3.75,218,3.65596330275229
+"Census tracts","all","Census Tract 134",102,3.69117647058824,54151,3.85280050229913
+"Census tracts","all","Census Tract 135.01",39,3.7948717948718,19347,3.96314674109681
+"Census tracts","all","Census Tract 135.02",95,3.63684210526316,69390,3.87401642888024
+"Census tracts","all","Census Tract 137.01",3,3.66666666666667,134,3.67164179104478
+"Census tracts","all","Census Tract 137.02",1,2.5,22,2.68181818181818
+"Census tracts","all","Census Tract 138",1,4,44,4.04545454545455
+"Census tracts","all","Census Tract 139",14,4.21428571428571,3487,4.09234298824204
+"Census tracts","all","Census Tract 140",5,3.6,283,4.02473498233216
+"Census tracts","all","Census Tract 141.02",1,4,18,4.05555555555556
+"Census tracts","all","Census Tract 142",2,3,541,4.14232902033272
+"Census tracts","all","Census Tract 143",1,4.5,28,4.46428571428571
+"Census tracts","all","Census Tract 144",2,4,430,3.98604651162791
+"Census tracts","all","Census Tract 15",2,3.75,23,3.82608695652174
+"Census tracts","all","Census Tract 17.01",2,4.25,55,4.36363636363636
+"Census tracts","all","Census Tract 17.20",3,3.33333333333333,43,3.58139534883721
+"Census tracts","all","Census Tract 17.23",1,4,71,3.84507042253521
+"Census tracts","all","Census Tract 17.24",2,4.25,68,4.25
+"Census tracts","all","Census Tract 17.36",5,3.5,261,3.97318007662835
+"Census tracts","all","Census Tract 17.37",2,4.5,240,4.47916666666667
+"Census tracts","all","Census Tract 17.40",1,3.5,42,3.57142857142857
+"Census tracts","all","Census Tract 17.41",1,4.5,19,4.42105263157895
+"Census tracts","all","Census Tract 17.44",2,3.75,75,3.56
+"Census tracts","all","Census Tract 17.47",6,3.58333333333333,365,3.55616438356164
+"Census tracts","all","Census Tract 17.48",1,3.5,9,3.66666666666667
+"Census tracts","all","Census Tract 17.51",4,3.5,166,3.71686746987952
+"Census tracts","all","Census Tract 17.54",1,3.5,13,3.61538461538462
+"Census tracts","all","Census Tract 18",4,4.375,1522,4.10775295663601
+"Census tracts","all","Census Tract 19",6,4.08333333333333,1470,3.96190476190476
+"Census tracts","all","Census Tract 2",3,4.83333333333333,20,4.75
+"Census tracts","all","Census Tract 20",1,4.5,25,4.28
+"Census tracts","all","Census Tract 23",2,3,224,3.80357142857143
+"Census tracts","all","Census Tract 24.02",1,4,22,4.22727272727273
+"Census tracts","all","Census Tract 25.04",2,4.25,144,4.30555555555556
+"Census tracts","all","Census Tract 26",15,3.9,3647,3.85220729366603
+"Census tracts","all","Census Tract 27",2,4.25,33,4.39393939393939
+"Census tracts","all","Census Tract 29",1,5,25,4.76
+"Census tracts","all","Census Tract 31",1,4,61,4.18032786885246
+"Census tracts","all","Census Tract 33.04",2,4.25,90,4.16666666666667
+"Census tracts","all","Census Tract 33.08",2,4,31,4.06451612903226
+"Census tracts","all","Census Tract 34",4,4.625,1206,4.20563847429519
+"Census tracts","all","Census Tract 35",1,4.5,65,4.30769230769231
+"Census tracts","all","Census Tract 36",4,3.75,282,3.79432624113475
+"Census tracts","all","Census Tract 37.01",1,5,6,5
+"Census tracts","all","Census Tract 37.02",7,4.07142857142857,395,4.19746835443038
+"Census tracts","all","Census Tract 38",27,3.75925925925926,9484,3.70054829185997
+"Census tracts","all","Census Tract 39",4,4.25,827,4.27448609431681
+"Census tracts","all","Census Tract 40",2,4,32,4.09375
+"Census tracts","all","Census Tract 41",3,4.5,432,4.69675925925926
+"Census tracts","all","Census Tract 44.01",3,4.16666666666667,4470,4.15615212527964
+"Census tracts","all","Census Tract 45",1,4.5,2223,4.46513720197931
+"Census tracts","all","Census Tract 46",2,4,917,3.91603053435115
+"Census tracts","all","Census Tract 49",9,3.55555555555556,425,4.03294117647059
+"Census tracts","all","Census Tract 50",7,3.71428571428571,3877,4.03456280629353
+"Census tracts","all","Census Tract 54",5,3.9,1098,3.99271402550091
+"Census tracts","all","Census Tract 56.01",1,3,72,3.18055555555556
+"Census tracts","all","Census Tract 56.02",2,3.75,102,4.09803921568627
+"Census tracts","all","Census Tract 56.04",2,3.75,147,4.03401360544218
+"Census tracts","all","Census Tract 6.04",3,4.16666666666667,37,4.02702702702703
+"Census tracts","all","Census Tract 6.06",3,4.5,117,4.25641025641026
+"Census tracts","all","Census Tract 6.11",1,3,7,3.14285714285714
+"Census tracts","all","Census Tract 6.20",1,3,41,2.95121951219512
+"Census tracts","all","Census Tract 60",1,4.5,306,4.6437908496732
+"Census tracts","all","Census Tract 63",2,4,1058,4.16540642722117
+"Census tracts","all","Census Tract 64",2,3.75,1218,3.79885057471264
+"Census tracts","all","Census Tract 65",2,3.5,768,3.72005208333333
+"Census tracts","all","Census Tract 71.01",6,4.16666666666667,270,4.23703703703704
+"Census tracts","all","Census Tract 72",4,4,435,4.0551724137931
+"Census tracts","all","Census Tract 76.04",1,4,62,3.85483870967742
+"Census tracts","all","Census Tract 76.07",1,4.5,55,4.50909090909091
+"Census tracts","all","Census Tract 76.08",2,3.25,324,3.21604938271605
+"Census tracts","all","Census Tract 77",23,3.91304347826087,11874,4.18713154791983
+"Census tracts","all","Census Tract 8",1,4.5,155,4.38709677419355
+"Census tracts","all","Census Tract 82",10,3.65,2403,4.06783187682064
+"Census tracts","all","Census Tract 83",1,3,169,2.85207100591716
+"Census tracts","all","Census Tract 84",8,3.625,1812,3.65066225165563
+"Census tracts","all","Census Tract 86",1,4.5,579,4.73920552677029
+"Census tracts","all","Census Tract 88",4,3.875,1361,3.96032329169728
+"Census tracts","all","Census Tract 9.04",1,4.5,23,4.39130434782609
+"Census tracts","all","Census Tract 90",4,3.875,6426,4.18611889200124
+"Census tracts","all","Census Tract 91",1,5,17,4.88235294117647
+"Census tracts","all","Census Tract 92",1,4,17,4.17647058823529
+"Census tracts","all","Census Tract 94",1,4,168,4.11309523809524
+"Census tracts","all","Census Tract 96",5,3.9,4520,4.10907079646018
+"Census tracts","all","Census Tract 97",5,3.7,1505,4.08372093023256
+"Census tracts","all","Census Tract 9800",1,4.5,21,4.23809523809524
+"Census tracts","all","Census Tract 99",7,3.78571428571429,2555,4.04853228962818
+"Census tracts","open","Census Tract 1",1,3.5,169,3.40828402366864
+"Census tracts","open","Census Tract 100",2,4.75,21,4.66666666666667
+"Census tracts","open","Census Tract 101",3,4,373,3.79892761394102
+"Census tracts","open","Census Tract 102",2,3,67,2.62686567164179
+"Census tracts","open","Census Tract 103",1,4.5,29,4.55172413793103
+"Census tracts","open","Census Tract 106",2,4.25,933,4.23258306538049
+"Census tracts","open","Census Tract 107",2,4.75,37,4.62162162162162
+"Census tracts","open","Census Tract 109",2,3.75,721,3.7877947295423
+"Census tracts","open","Census Tract 11",4,4,1649,4.29714978775015
+"Census tracts","open","Census Tract 111",2,4,707,4.09476661951909
+"Census tracts","open","Census Tract 114",2,4,439,3.88154897494305
+"Census tracts","open","Census Tract 115",1,4,322,4.11490683229814
+"Census tracts","open","Census Tract 12",3,4,2165,4.035103926097
+"Census tracts","open","Census Tract 120",1,3,7,3.14285714285714
+"Census tracts","open","Census Tract 121.02",1,4.5,94,4.28723404255319
+"Census tracts","open","Census Tract 125",1,4,528,3.84090909090909
+"Census tracts","open","Census Tract 126",1,4,73,3.95890410958904
+"Census tracts","open","Census Tract 129",5,4.2,3097,4.34581853406522
+"Census tracts","open","Census Tract 13.01",1,4,57,4.17543859649123
+"Census tracts","open","Census Tract 13.02",1,5,5,5
+"Census tracts","open","Census Tract 130",3,3.83333333333333,917,4.04034896401309
+"Census tracts","open","Census Tract 133.01",4,3.625,1501,3.62425049966689
+"Census tracts","open","Census Tract 133.02",1,4,5,3.8
+"Census tracts","open","Census Tract 134",63,3.75396825396825,49031,3.87463033590993
+"Census tracts","open","Census Tract 135.01",26,3.82692307692308,16725,3.93931240657698
+"Census tracts","open","Census Tract 135.02",56,3.70535714285714,59953,3.90399145997698
+"Census tracts","open","Census Tract 137.01",2,3.75,86,3.73255813953488
+"Census tracts","open","Census Tract 137.02",1,2.5,22,2.68181818181818
+"Census tracts","open","Census Tract 138",1,4,44,4.04545454545455
+"Census tracts","open","Census Tract 139",7,4.28571428571429,2675,4.16261682242991
+"Census tracts","open","Census Tract 140",5,3.6,283,4.02473498233216
+"Census tracts","open","Census Tract 141.02",1,4,18,4.05555555555556
+"Census tracts","open","Census Tract 142",1,4,527,4.19924098671727
+"Census tracts","open","Census Tract 143",1,4.5,28,4.46428571428571
+"Census tracts","open","Census Tract 15",1,3.5,5,3.6
+"Census tracts","open","Census Tract 17.01",1,4.5,22,4.54545454545455
+"Census tracts","open","Census Tract 17.20",3,3.33333333333333,43,3.58139534883721
+"Census tracts","open","Census Tract 17.23",1,4,71,3.84507042253521
+"Census tracts","open","Census Tract 17.24",2,4.25,68,4.25
+"Census tracts","open","Census Tract 17.36",3,3.33333333333333,51,3.3921568627451
+"Census tracts","open","Census Tract 17.37",2,4.5,240,4.47916666666667
+"Census tracts","open","Census Tract 17.40",1,3.5,42,3.57142857142857
+"Census tracts","open","Census Tract 17.41",1,4.5,19,4.42105263157895
+"Census tracts","open","Census Tract 17.44",2,3.75,75,3.56
+"Census tracts","open","Census Tract 17.47",6,3.58333333333333,365,3.55616438356164
+"Census tracts","open","Census Tract 17.48",1,3.5,9,3.66666666666667
+"Census tracts","open","Census Tract 17.51",2,3.75,136,3.86029411764706
+"Census tracts","open","Census Tract 18",3,4.16666666666667,1513,4.10310641110377
+"Census tracts","open","Census Tract 19",3,3.83333333333333,1258,3.9093799682035
+"Census tracts","open","Census Tract 2",1,5,5,5
+"Census tracts","open","Census Tract 23",2,3,224,3.80357142857143
+"Census tracts","open","Census Tract 24.02",1,4,22,4.22727272727273
+"Census tracts","open","Census Tract 25.04",1,4,43,4.16279069767442
+"Census tracts","open","Census Tract 26",9,4,2622,3.99809305873379
+"Census tracts","open","Census Tract 27",1,4.5,23,4.52173913043478
+"Census tracts","open","Census Tract 29",1,5,25,4.76
+"Census tracts","open","Census Tract 31",1,4,61,4.18032786885246
+"Census tracts","open","Census Tract 33.04",1,4,83,4.1566265060241
+"Census tracts","open","Census Tract 33.08",2,4,31,4.06451612903226
+"Census tracts","open","Census Tract 34",4,4.625,1206,4.20563847429519
+"Census tracts","open","Census Tract 35",1,4.5,65,4.30769230769231
+"Census tracts","open","Census Tract 36",4,3.75,282,3.79432624113475
+"Census tracts","open","Census Tract 37.02",4,4.375,351,4.27920227920228
+"Census tracts","open","Census Tract 38",16,3.5625,7931,3.65704198713907
+"Census tracts","open","Census Tract 39",2,4.25,700,4.26428571428571
+"Census tracts","open","Census Tract 40",1,4.5,27,4.18518518518519
+"Census tracts","open","Census Tract 41",2,4.5,426,4.69953051643192
+"Census tracts","open","Census Tract 44.01",3,4.16666666666667,4470,4.15615212527964
+"Census tracts","open","Census Tract 45",1,4.5,2223,4.46513720197931
+"Census tracts","open","Census Tract 46",2,4,917,3.91603053435115
+"Census tracts","open","Census Tract 49",5,3.9,344,4.09593023255814
+"Census tracts","open","Census Tract 50",6,3.83333333333333,3813,4.04799370574351
+"Census tracts","open","Census Tract 54",4,3.875,1062,3.9924670433145
+"Census tracts","open","Census Tract 56.02",1,3.5,14,3.78571428571429
+"Census tracts","open","Census Tract 56.04",1,4,114,4.18421052631579
+"Census tracts","open","Census Tract 6.04",2,4,28,3.92857142857143
+"Census tracts","open","Census Tract 6.06",3,4.5,117,4.25641025641026
+"Census tracts","open","Census Tract 6.11",1,3,7,3.14285714285714
+"Census tracts","open","Census Tract 6.20",1,3,41,2.95121951219512
+"Census tracts","open","Census Tract 63",2,4,1058,4.16540642722117
+"Census tracts","open","Census Tract 64",2,3.75,1218,3.79885057471264
+"Census tracts","open","Census Tract 65",1,3.5,621,3.71980676328502
+"Census tracts","open","Census Tract 71.01",3,4,167,4.17365269461078
+"Census tracts","open","Census Tract 72",2,3.75,312,4.04807692307692
+"Census tracts","open","Census Tract 76.04",1,4,62,3.85483870967742
+"Census tracts","open","Census Tract 76.08",2,3.25,324,3.21604938271605
+"Census tracts","open","Census Tract 77",13,4.07692307692308,11165,4.2
+"Census tracts","open","Census Tract 8",1,4.5,155,4.38709677419355
+"Census tracts","open","Census Tract 82",5,3.6,1851,4.08373851971907
+"Census tracts","open","Census Tract 83",1,3,169,2.85207100591716
+"Census tracts","open","Census Tract 84",4,4.125,894,4.15548098434004
+"Census tracts","open","Census Tract 86",1,4.5,579,4.73920552677029
+"Census tracts","open","Census Tract 88",3,4.33333333333333,1219,4.11402789171452
+"Census tracts","open","Census Tract 9.04",1,4.5,23,4.39130434782609
+"Census tracts","open","Census Tract 90",3,4,6132,4.20923026744945
+"Census tracts","open","Census Tract 92",1,4,17,4.17647058823529
+"Census tracts","open","Census Tract 94",1,4,168,4.11309523809524
+"Census tracts","open","Census Tract 96",5,3.9,4520,4.10907079646018
+"Census tracts","open","Census Tract 97",3,4.16666666666667,1339,4.15683345780433
+"Census tracts","open","Census Tract 9800",1,4.5,21,4.23809523809524
+"Census tracts","open","Census Tract 99",4,4,2175,4.03310344827586
+"Neighborhoods","all","Algiers Point",1,3.5,169,3.40828402366864
+"Neighborhoods","all","Audubon",5,3.9,489,4.14519427402863
+"Neighborhoods","all","Bayou St. John",4,4.5,2655,4.50282485875706
+"Neighborhoods","all","Behrman",3,4.16666666666667,37,4.02702702702703
+"Neighborhoods","all","Black Pearl",1,4,528,3.84090909090909
+"Neighborhoods","all","Broadmoor",3,4.33333333333333,46,4.34782608695652
+"Neighborhoods","all","Bywater",13,4.03846153846154,4440,4.12702702702703
+"Neighborhoods","all","Central Business District",105,3.69047619047619,55668,3.8520694115111
+"Neighborhoods","all","Central City",32,4,6391,4.02722578626193
+"Neighborhoods","all","City Park",3,4.16666666666667,938,3.92324093816631
+"Neighborhoods","all","Desire Area",4,3.375,156,3.53205128205128
+"Neighborhoods","all","Dillard",2,4,31,4.06451612903226
+"Neighborhoods","all","East Carrollton",2,4.25,104,4.10576923076923
+"Neighborhoods","all","East Riverside",10,3.8,6025,4.10273858921162
+"Neighborhoods","all","Fairgrounds",8,4.1875,401,4.20947630922693
+"Neighborhoods","all","French Quarter",158,3.69620253164557,96704,3.87558942753144
+"Neighborhoods","all","Freret",4,4.125,1007,4.11122144985104
+"Neighborhoods","all","Garden District",4,3.875,6426,4.18611889200124
+"Neighborhoods","all","Gentilly Terrace",3,4.16666666666667,166,4.29518072289157
+"Neighborhoods","all","Gert Town",4,4,435,4.0551724137931
+"Neighborhoods","all","Holy Cross",1,4.5,155,4.38709677419355
+"Neighborhoods","all","Irish Channel",6,3.58333333333333,1902,4.01209253417455
+"Neighborhoods","all","Lake Terrace & Oaks",2,3.75,218,3.65596330275229
+"Neighborhoods","all","Lakeshore - Lake Vista",5,3.5,1683,3.56862745098039
+"Neighborhoods","all","Lakeview",5,3.6,321,3.86292834890966
+"Neighborhoods","all","Lakewood",1,4,62,3.85483870967742
+"Neighborhoods","all","Leonidas",18,4.05555555555556,5439,4.25703254274683
+"Neighborhoods","all","Little Woods",8,4,438,4.17351598173516
+"Neighborhoods","all","Lower Garden District",34,3.80882352941176,14446,4.15166828187734
+"Neighborhoods","all","Lower Ninth Ward",1,4.5,23,4.39130434782609
+"Neighborhoods","all","Marigny",19,4,5169,3.92745211839814
+"Neighborhoods","all","Mcdonogh",3,4.83333333333333,20,4.75
+"Neighborhoods","all","Mid-City",24,3.875,8289,3.98853902762698
+"Neighborhoods","all","Milan",9,3.88888888888889,507,3.69625246548323
+"Neighborhoods","all","New Aurora - English Turn",1,3,7,3.14285714285714
+"Neighborhoods","all","Old Aurora",3,4.5,117,4.25641025641026
+"Neighborhoods","all","Pines Village",3,3.33333333333333,43,3.58139534883721
+"Neighborhoods","all","Pontchartrain Park",2,4.25,55,4.36363636363636
+"Neighborhoods","all","Read Blvd East",7,3.57142857142857,374,3.55882352941176
+"Neighborhoods","all","Read Blvd West",1,4,71,3.84507042253521
+"Neighborhoods","all","Seventh Ward",13,4.26923076923077,1672,4.15131578947368
+"Neighborhoods","all","St.  Anthony",2,4.25,90,4.16666666666667
+"Neighborhoods","all","St. Bernard Area",1,4,44,4.04545454545455
+"Neighborhoods","all","St. Claude",6,4,191,4.17277486910995
+"Neighborhoods","all","St. Roch",9,3.88888888888889,1719,3.94589877835951
+"Neighborhoods","all","St. Thomas Dev",1,4,18,4.05555555555556
+"Neighborhoods","all","Tall Timbers - Brechtel",1,3,41,2.95121951219512
+"Neighborhoods","all","Touro",7,3.78571428571429,2555,4.04853228962818
+"Neighborhoods","all","Treme - Lafitte",9,4.16666666666667,5329,4.17414148996059
+"Neighborhoods","all","Tulane - Gravier",10,3.65,731,4.28864569083447
+"Neighborhoods","all","Uptown",7,4.21428571428571,1216,4.05098684210526
+"Neighborhoods","all","Viavant - Venetian Isles",4,3.5,166,3.71686746987952
+"Neighborhoods","all","Village De Lest",1,4.5,19,4.42105263157895
+"Neighborhoods","all","West End",3,3.66666666666667,379,3.40369393139842
+"Neighborhoods","all","West Lake Forest",5,3.5,261,3.97318007662835
+"Neighborhoods","all","West Riverside",7,4,1888,4.05667372881356
+"Neighborhoods","open","Algiers Point",1,3.5,169,3.40828402366864
+"Neighborhoods","open","Audubon",3,3.83333333333333,423,4.1371158392435
+"Neighborhoods","open","Bayou St. John",3,4.5,2649,4.50283125707814
+"Neighborhoods","open","Behrman",2,4,28,3.92857142857143
+"Neighborhoods","open","Black Pearl",1,4,528,3.84090909090909
+"Neighborhoods","open","Broadmoor",1,4.5,29,4.55172413793103
+"Neighborhoods","open","Bywater",7,4,3814,4.14840062926062
+"Neighborhoods","open","Central Business District",64,3.7578125,49761,3.87829826571009
+"Neighborhoods","open","Central City",20,4.075,4644,4.22480620155039
+"Neighborhoods","open","City Park",3,4.16666666666667,938,3.92324093816631
+"Neighborhoods","open","Desire Area",3,3.33333333333333,108,3.51851851851852
+"Neighborhoods","open","Dillard",2,4,31,4.06451612903226
+"Neighborhoods","open","East Carrollton",1,4,73,3.95890410958904
+"Neighborhoods","open","East Riverside",8,4,5859,4.1199863457928
+"Neighborhoods","open","Fairgrounds",4,4.375,351,4.27920227920228
+"Neighborhoods","open","French Quarter",97,3.71134020618557,83879,3.88576401721527
+"Neighborhoods","open","Freret",2,4,707,4.09476661951909
+"Neighborhoods","open","Garden District",3,4,6132,4.20923026744945
+"Neighborhoods","open","Gentilly Terrace",2,4,65,4.18461538461538
+"Neighborhoods","open","Gert Town",2,3.75,312,4.04807692307692
+"Neighborhoods","open","Holy Cross",1,4.5,155,4.38709677419355
+"Neighborhoods","open","Irish Channel",4,4.25,1746,4.1397479954181
+"Neighborhoods","open","Lake Terrace & Oaks",1,4,5,3.8
+"Neighborhoods","open","Lakeshore - Lake Vista",4,3.625,1501,3.62425049966689
+"Neighborhoods","open","Lakeview",2,3.75,128,4.140625
+"Neighborhoods","open","Lakewood",1,4,62,3.85483870967742
+"Neighborhoods","open","Leonidas",8,4.0625,4014,4.27603388141505
+"Neighborhoods","open","Little Woods",7,4.07142857142857,425,4.19058823529412
+"Neighborhoods","open","Lower Garden District",19,3.89473684210526,13185,4.16640121350019
+"Neighborhoods","open","Lower Ninth Ward",1,4.5,23,4.39130434782609
+"Neighborhoods","open","Marigny",12,4.04166666666667,4135,4.03651753325272
+"Neighborhoods","open","Mcdonogh",1,5,5,5
+"Neighborhoods","open","Mid-City",18,3.86111111111111,7939,3.99496158206323
+"Neighborhoods","open","Milan",7,3.92857142857143,461,3.66811279826464
+"Neighborhoods","open","New Aurora - English Turn",1,3,7,3.14285714285714
+"Neighborhoods","open","Old Aurora",3,4.5,117,4.25641025641026
+"Neighborhoods","open","Pines Village",3,3.33333333333333,43,3.58139534883721
+"Neighborhoods","open","Pontchartrain Park",1,4.5,22,4.54545454545455
+"Neighborhoods","open","Read Blvd East",7,3.57142857142857,374,3.55882352941176
+"Neighborhoods","open","Read Blvd West",1,4,71,3.84507042253521
+"Neighborhoods","open","Seventh Ward",12,4.29166666666667,1662,4.15162454873646
+"Neighborhoods","open","St.  Anthony",1,4,83,4.1566265060241
+"Neighborhoods","open","St. Bernard Area",1,4,44,4.04545454545455
+"Neighborhoods","open","St. Claude",3,4.16666666666667,67,4.19402985074627
+"Neighborhoods","open","St. Roch",5,3.5,1482,3.89338731443995
+"Neighborhoods","open","St. Thomas Dev",1,4,18,4.05555555555556
+"Neighborhoods","open","Tall Timbers - Brechtel",1,3,41,2.95121951219512
+"Neighborhoods","open","Touro",4,4,2175,4.03310344827586
+"Neighborhoods","open","Treme - Lafitte",6,4.25,5197,4.17086780835097
+"Neighborhoods","open","Tulane - Gravier",5,3.9,344,4.09593023255814
+"Neighborhoods","open","Uptown",4,4.25,758,3.82849604221636
+"Neighborhoods","open","Viavant - Venetian Isles",2,3.75,136,3.86029411764706
+"Neighborhoods","open","Village De Lest",1,4.5,19,4.42105263157895
+"Neighborhoods","open","West End",2,3.25,324,3.21604938271605
+"Neighborhoods","open","West Lake Forest",3,3.33333333333333,51,3.3921568627451
+"Neighborhoods","open","West Riverside",4,4.125,1372,4.12026239067055
+"Parts of town","all","Algiers",12,4.16666666666667,391,3.73657289002558
+"Parts of town","all","CBD / Warehouse District",130,3.73461538461538,72643,3.91531186762661
+"Parts of town","all","Central City / Garden District",83,3.84939759036145,26557,4.07305041985164
+"Parts of town","all","French Quarter",153,3.68954248366013,91442,3.87008158176768
+"Parts of town","all","Gentilly",11,4.09090909090909,560,4.01964285714286
+"Parts of town","all","Lakeview",17,3.70588235294118,3383,3.68164351167603
+"Parts of town","all","Lower Ninth Ward",2,4.5,178,4.3876404494382
+"Parts of town","all","Marigny / Bywater",51,3.94117647058824,11675,4.0047965738758
+"Parts of town","all","Mid-City",73,4.02739726027397,19556,4.14021272243813
+"Parts of town","all","New Orleans East",27,3.64814814814815,1311,3.86270022883295
+"Parts of town","all","Uptown / Carrollton",47,4.08510638297872,10717,4.15797331342726
+"Parts of town","all","Village de L'Est",2,4.25,61,4.26229508196721
+"Parts of town","open","Algiers",9,4,367,3.68392370572207
+"Parts of town","open","CBD / Warehouse District",79,3.81645569620253,65920,3.94112560679612
+"Parts of town","open","Central City / Garden District",55,3.98181818181818,23144,4.13645005184929
+"Parts of town","open","French Quarter",93,3.6989247311828,78796,3.87909284735266
+"Parts of town","open","Gentilly",7,4.07142857142857,206,4.18446601941748
+"Parts of town","open","Lakeview",12,3.75,2953,3.70165932949543
+"Parts of town","open","Lower Ninth Ward",2,4.5,178,4.3876404494382
+"Parts of town","open","Marigny / Bywater",30,3.88333333333333,9606,4.05413283364564
+"Parts of town","open","Mid-City",51,4.08823529411765,18498,4.13947453778787
+"Parts of town","open","New Orleans East",22,3.68181818181818,1058,3.83837429111531
+"Parts of town","open","Uptown / Carrollton",24,4.08333333333333,7904,4.15144230769231
+"Parts of town","open","Village de L'Est",2,4.25,61,4.26229508196721
+"Wards","all","Ward 1",19,3.97368421052632,2850,4.08982456140351
+"Wards","all","Ward 10",21,3.66666666666667,4981,3.95282071873118
+"Wards","all","Ward 11",14,3.89285714285714,8558,4.14828230895069
+"Wards","all","Ward 12",29,3.87931034482759,9133,4.06624329355086
+"Wards","all","Ward 13",15,4.16666666666667,3586,4.10736196319018
+"Wards","all","Ward 14",10,3.9,1117,3.9632945389436
+"Wards","all","Ward 15",12,4.16666666666667,391,3.73657289002558
+"Wards","all","Ward 16",4,4.125,722,3.88365650969529
+"Wards","all","Ward 17",23,4,6122,4.19699444625939
+"Wards","all","Ward 2",30,3.86666666666667,13753,4.14098742092634
+"Wards","all","Ward 3",94,3.77659574468085,37142,3.84669646222605
+"Wards","all","Ward 4",111,3.72972972972973,83907,3.96667739282777
+"Wards","all","Ward 5",74,3.66891891891892,39203,3.8178710812948
+"Wards","all","Ward 6",34,3.80882352941176,10580,3.7741965973535
+"Wards","all","Ward 7",45,4.03333333333333,6193,3.95494913612143
+"Wards","all","Ward 8",15,4.16666666666667,3396,4.02650176678445
+"Wards","all","Ward 9",56,3.83035714285714,6392,4.07024405506884
+"Wards","open","Ward 1",12,4,1986,4.20140986908359
+"Wards","open","Ward 10",12,3.83333333333333,3511,4.15066932497864
+"Wards","open","Ward 11",10,4.15,8091,4.19305401062909
+"Wards","open","Ward 12",20,4,8524,4.07484748944158
+"Wards","open","Ward 13",8,4.1875,2398,4.06422018348624
+"Wards","open","Ward 14",6,3.83333333333333,932,3.97639484978541
+"Wards","open","Ward 15",9,4,367,3.68392370572207
+"Wards","open","Ward 16",2,4,601,3.85524126455907
+"Wards","open","Ward 17",12,3.91666666666667,4642,4.19129685480396
+"Wards","open","Ward 2",17,4,12676,4.17205743136636
+"Wards","open","Ward 3",59,3.77966101694915,32889,3.84265255860622
+"Wards","open","Ward 4",71,3.84507042253521,75954,3.98846670353108
+"Wards","open","Ward 5",47,3.69148936170213,33635,3.83591496952579
+"Wards","open","Ward 6",20,3.75,9053,3.75278913067491
+"Wards","open","Ward 7",32,4.09375,5022,4.06312226204699
+"Wards","open","Ward 8",8,4,2836,4.01904090267983
+"Wards","open","Ward 9",40,3.8375,5308,4.0853428786737
+"ZIP code areas","all","70112",68,3.72058823529412,25418,3.87697694547171
+"ZIP code areas","all","70113",18,4.11111111111111,4066,4.28799803246434
+"ZIP code areas","all","70114",8,4.1875,267,3.52434456928839
+"ZIP code areas","all","70115",50,3.91,15213,4.04647341089857
+"ZIP code areas","all","70116",78,3.8974358974359,26938,3.86929244932809
+"ZIP code areas","all","70117",32,4.125,7826,4.09979555328393
+"ZIP code areas","all","70118",28,4.03571428571429,6864,4.20833333333333
+"ZIP code areas","all","70119",58,3.91379310344828,17855,4.11879025483058
+"ZIP code areas","all","70122",11,4.04545454545455,758,3.96833773087071
+"ZIP code areas","all","70124",14,3.64285714285714,2404,3.58777038269551
+"ZIP code areas","all","70125",7,4.14285714285714,407,4.03931203931204
+"ZIP code areas","all","70126",13,3.65384615384615,426,3.80046948356808
+"ZIP code areas","all","70127",13,3.73076923076923,698,4.05157593123209
+"ZIP code areas","all","70128",7,3.5,398,3.53768844221106
+"ZIP code areas","all","70129",2,4.25,61,4.26229508196721
+"ZIP code areas","all","70130",197,3.69796954314721,128751,3.9137249419422
+"ZIP code areas","all","70131",4,4.125,124,4.19354838709677
+"ZIP code areas","open","70112",43,3.74418604651163,23591,3.89089059387054
+"ZIP code areas","open","70113",13,4.15384615384615,3264,4.35814950980392
+"ZIP code areas","open","70114",5,3.9,243,3.4238683127572
+"ZIP code areas","open","70115",32,4.015625,13022,4.05076025188143
+"ZIP code areas","open","70116",44,3.93181818181818,20418,3.8798609070428
+"ZIP code areas","open","70117",18,4.08333333333333,6830,4.10102489019034
+"ZIP code areas","open","70118",15,4,5342,4.2083489329839
+"ZIP code areas","open","70119",42,3.95238095238095,17093,4.11642192710466
+"ZIP code areas","open","70122",8,4,437,4.02517162471396
+"ZIP code areas","open","70124",9,3.66666666666667,1974,3.59726443768997
+"ZIP code areas","open","70125",3,4,267,4.02621722846442
+"ZIP code areas","open","70126",10,3.65,335,3.79701492537313
+"ZIP code areas","open","70127",9,3.83333333333333,455,4.09010989010989
+"ZIP code areas","open","70128",7,3.5,398,3.53768844221106
+"ZIP code areas","open","70129",2,4.25,61,4.26229508196721
+"ZIP code areas","open","70130",122,3.79098360655738,114837,3.94334578576591
+"ZIP code areas","open","70131",4,4.125,124,4.19354838709677

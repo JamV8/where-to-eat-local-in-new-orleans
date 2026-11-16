@@ -1,0 +1,26 @@
+# Raw Yelp files are several GB and covered by Yelp's dataset agreement: never commit them
+data/raw/
+
+# The professor's assignment file and its rendered copy: his material, not part of my project
+yelp new orleans project instructions.qmd
+notes/assignment/
+
+# Private course documents (graded rubrics): never publish
+*_link.pdf
+
+# R / RStudio / Quarto working files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.quarto/
+/.luarc.json
+
+# OS files
+.DS_Store
+
+/.quarto/
+**/*.quarto_ipynb
+
+# Working notes (raw prompt log, decision log): kept local until the curated AI_prompts.md is written
+notes/

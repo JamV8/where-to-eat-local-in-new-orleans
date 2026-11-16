@@ -1,0 +1,16 @@
+"labels","restaurants","share"
+"cajun/creole",193,0.317434210526316
+"cajun/creole + seafood",114,0.1875
+"seafood",100,0.164473684210526
+"southern",62,0.101973684210526
+"cajun/creole + southern",33,0.0542763157894737
+"cajun/creole + seafood + southern",30,0.0493421052631579
+"soul food",24,0.0394736842105263
+"cajun/creole + soul food",14,0.0230263157894737
+"cajun/creole + seafood + soul food",8,0.0131578947368421
+"seafood + southern",7,0.0115131578947368
+"soul food + southern",7,0.0115131578947368
+"cajun/creole + soul food + southern",5,0.00822368421052632
+"seafood + soul food",5,0.00822368421052632
+"cajun/creole + seafood + soul food + southern",3,0.00493421052631579
+"seafood + soul food + southern",3,0.00493421052631579

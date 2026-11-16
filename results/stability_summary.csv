@@ -1,0 +1,3 @@
+"ranking","resamples","share_with_identical_top10","average_top10_members_kept","restaurants_with_5pct_chance","restaurants_with_90pct_chance"
+"ordinary",2000,0.098,8.693,18,7
+"adjusted",2000,0.0055,7.4105,21,1
