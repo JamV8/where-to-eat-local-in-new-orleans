@@ -33,7 +33,7 @@ stab_sum   <- res("stability_summary.csv")
 areas      <- res("area_scores.csv")
 cutoffs    <- res("area_cutoff_sensitivity.csv")
 robust     <- res("area_method_robustness.csv")
-centre     <- res("centre_vs_rest.csv")
+center     <- res("center_vs_rest.csv")
 beats_fq   <- res("beats_french_quarter.csv")
 nbhd       <- res("neighborhood_scores.csv")
 checks     <- res("checks.csv")
@@ -59,8 +59,8 @@ leader       <- compared[1, ]
 second       <- compared[2, ]
 fq           <- compared[compared$part_of_town == "French Quarter", ]
 great_cut    <- cutoffs$rating_cut[cutoffs$great_means_best == "25%"]
-tourist      <- centre[centre$where == "Tourist centre", ]
-rest         <- centre[centre$where == "Rest of the city", ]
+tourist      <- center[center$where == "Tourist center", ]
+rest         <- center[center$where == "Rest of the city", ]
 bench        <- function(m, col) benchmark[benchmark$method == m, col]
 geo_open     <- function(system, col) geography[geography$scope == "open" & geography$system == system, col]
 ```
@@ -72,7 +72,7 @@ Cajun and Creole cooking, Southern food, soul food and seafood. Two things came 
 restaurants are spread over `r n_distinct(top10$part_of_town)` parts of the city, and only
 `r sum(top10$part_of_town == "French Quarter")` of them are in the French Quarter.**
 And **the part of town where your chance of walking into a great place is highest is
-`r leader$part_of_town`**, not the tourist centre. A top-ten list from star ratings is never exact, so
+`r leader$part_of_town`**, not the tourist center. A top-ten list from star ratings is never exact, so
 for every restaurant I also report how likely it is to really belong in the top ten.
 :::
 
@@ -185,7 +185,7 @@ and it runs only once; DuckDB is what I would reach for if the file had to be re
 
 A restaurant is any business whose Yelp categories include "Restaurants", as in the assignment.
 It is **in New Orleans** if its coordinates fall inside the official Census boundary of the city.
-I did not use Yelp's city field, because it is typed by hand: `r label_out` restaurants labelled
+I did not use Yelp's city field, because it is typed by hand: `r label_out` restaurants labeled
 "New Orleans" lie outside the boundary, in suburbs such as Elmwood, Jefferson and Harahan, and
 `r label_other` inside it carry another city name. The boundary gives `r n(in_city)` restaurants, `r n(sum(business$is_open == 1))` of
 them still open when the data end.
@@ -300,7 +300,7 @@ Neighborhood Statistical Areas give the detail inside each part.
   every restaurant sits in a part of town large enough to compare.
 
 The planning district file carries only numbers, so the names are mine, following the names the
-Commission uses. I labelled District 4 "Mid-City / Tremé / Bayou St. John" instead of the short
+Commission uses. I labeled District 4 "Mid-City / Tremé / Bayou St. John" instead of the short
 official "Mid-City", for a reason that appears in the results.
 
 ## Reviewers, and a score adjusted for their habits
@@ -445,7 +445,7 @@ of `r leader$restaurants` and `r leader$top10_restaurants` of the top ten. How s
   them all, which is what a close race looks like. The list is in
   [`results/area_method_robustness.csv`](https://github.com/JamV8/where-to-eat-local-in-new-orleans/blob/main/results/area_method_robustness.csv).
 
-**The tourist centre is not where the best local food is.** This part of the answer is firmer. The
+**The tourist center is not where the best local food is.** This part of the answer is firmer. The
 French Quarter and the CBD together hold `r pct(tourist$restaurants / n_ranked)` of the ranked
 restaurants, but their average
 restaurant is rated `r f2(tourist$average_rating)` against `r f2(rest$average_rating)` in the rest of
@@ -494,7 +494,7 @@ checks |>
   since and new ones are missing.
 - **Yelp reviewers are not a random sample of diners.** A rating reflects the people who chose to
   write, and tourists and residents write for different reasons.
-- **Yelp's labels are loose.** The top ten contains a fried-chicken chain from Tennessee labelled
+- **Yelp's labels are loose.** The top ten contains a fried-chicken chain from Tennessee labeled
   "Southern". A few steakhouses are in the theme because they carry "Seafood". The Seafood exception
   also removes a few places most people would call local, because Yelp gives them a French or
   Italian label.
@@ -513,8 +513,9 @@ checks |>
 
 ## Reproduce it
 
-The scripts run in order from the project root. Only the first one and the benchmark need the raw
-Yelp files; everything else runs from the filtered tables in the repository.
+The scripts run in order from the project root. The first one and the benchmark read the raw Yelp
+files, and scripts 04 and 05 read an intermediate review file that the first one creates. From
+script 06 on, everything runs from the filtered tables in the repository.
 
 | Script | What it does |
 |---|---|
@@ -529,6 +530,7 @@ Yelp files; everything else runs from the filtered tables in the repository.
 | `R/09_areas.R` | Scores for parts of town and neighborhoods |
 | `R/10_checks.R` | Self-check |
 | `R/11_import_benchmark.R` | Measures three ways of reading the review file |
+| `R/12_site_data.R` | Exports the data the story site draws |
 
 Package versions are recorded in `renv.lock`. The random seed is 9426.
 

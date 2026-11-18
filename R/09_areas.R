@@ -16,7 +16,7 @@
 #         data/boundaries/planning_districts.rds
 # Output: results/area_scores.csv, results/area_cutoff_sensitivity.csv,
 #         results/area_method_robustness.csv, results/neighborhood_scores.csv,
-#         results/geography_area_scores.csv, results/centre_vs_rest.csv,
+#         results/geography_area_scores.csv, results/center_vs_rest.csv,
 #         results/beats_french_quarter.csv,
 #         figures/areas_share_great.png, figures/areas_map.png
 
@@ -157,26 +157,26 @@ area_method_robustness <- bind_rows(lapply(names(restaurant_sets), function(set_
 
 write.csv(area_method_robustness, "results/area_method_robustness.csv", row.names = FALSE)
 
-# ---- 4b. The tourist centre against the rest of the city ---------------------------------
+# ---- 4b. The tourist center against the rest of the city ---------------------------------
 # Planning District 1 (French Quarter + CBD / Warehouse District) is where visitors stay.
 # This comparison uses every ranked restaurant, so it does not depend on which single part
 # of town comes first.
 
-centre_parts <- c("French Quarter", "CBD / Warehouse District")
-ranked <- mutate(ranked, where = if_else(part_of_town %in% centre_parts, "Tourist centre", "Rest of the city"))
-centre <- filter(ranked, where == "Tourist centre")
+center_parts <- c("French Quarter", "CBD / Warehouse District")
+ranked <- mutate(ranked, where = if_else(part_of_town %in% center_parts, "Tourist center", "Rest of the city"))
+center <- filter(ranked, where == "Tourist center")
 rest   <- filter(ranked, where == "Rest of the city")
 
-rating_test <- t.test(rest$ordinary_average, centre$ordinary_average)
-share_test  <- prop.test(c(sum(rest$great), sum(centre$great)), c(nrow(rest), nrow(centre)))
+rating_test <- t.test(rest$ordinary_average, center$ordinary_average)
+share_test  <- prop.test(c(sum(rest$great), sum(center$great)), c(nrow(rest), nrow(center)))
 
-centre_vs_rest <- tibble(
-  where             = c("Tourist centre", "Rest of the city"),
-  restaurants       = c(nrow(centre), nrow(rest)),
-  great_restaurants = c(sum(centre$great), sum(rest$great)),
-  share_great       = c(mean(centre$great), mean(rest$great)),
-  average_rating    = c(mean(centre$ordinary_average), mean(rest$ordinary_average)),
-  adjusted_score    = c(mean(centre$adjusted_score), mean(rest$adjusted_score)),
+center_vs_rest <- tibble(
+  where             = c("Tourist center", "Rest of the city"),
+  restaurants       = c(nrow(center), nrow(rest)),
+  great_restaurants = c(sum(center$great), sum(rest$great)),
+  share_great       = c(mean(center$great), mean(rest$great)),
+  average_rating    = c(mean(center$ordinary_average), mean(rest$ordinary_average)),
+  adjusted_score    = c(mean(center$adjusted_score), mean(rest$adjusted_score)),
   rating_difference = c(NA, unname(diff(rev(rating_test$estimate)))),
   rating_difference_low  = c(NA, rating_test$conf.int[1]),
   rating_difference_high = c(NA, rating_test$conf.int[2]),
@@ -184,7 +184,7 @@ centre_vs_rest <- tibble(
   share_p_value     = c(NA, share_test$p.value)
 )
 
-write.csv(centre_vs_rest, "results/centre_vs_rest.csv", row.names = FALSE)
+write.csv(center_vs_rest, "results/center_vs_rest.csv", row.names = FALSE)
 
 # how often each compared part of town beats the French Quarter when restaurants are redrawn
 beats_french_quarter <- bind_rows(lapply(setdiff(unique(compared$part_of_town), "French Quarter"), function(part) {
@@ -295,7 +295,7 @@ figure_map <- ggplot() +
   scale_colour_manual(values = c("TRUE" = "#3d0f08", "FALSE" = "#8a8577"),
                       labels = c("TRUE" = "Great (best quarter)", "FALSE" = "Other ranked restaurant"), name = NULL) +
   coord_sf(xlim = xlim, ylim = ylim, expand = FALSE) +
-  labs(title = "The best local food is outside the tourist centre",
+  labs(title = "The best local food is outside the tourist center",
        subtitle = "Parts of town shaded by the share of their local-food restaurants that are among the city's best.\nPale grey: fewer than 5 ranked restaurants, not compared.",
        caption = "Yelp Open Dataset, reviews through January 2022. Boundaries: City of New Orleans.") +
   theme_void(base_size = 12) +
@@ -320,6 +320,6 @@ show(sprintf("%s and the French Quarter in the 24 ways", leader),
                leader_first = sum(leader_place == 1), leader_top3 = sum(leader_place <= 3),
                french_quarter_best_place = min(french_quarter_place),
                french_quarter_max_chance_top3 = max(french_quarter_chance_top3)))
-show("Tourist centre against the rest of the city", centre_vs_rest)
+show("Tourist center against the rest of the city", center_vs_rest)
 show("How often each part of town beats the French Quarter", beats_french_quarter)
 show("Neighborhoods with 5+ ranked restaurants", filter(neighborhood_scores, compared))
