@@ -82,7 +82,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c480cf4401308b30efcc73267cdf14cd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f5d2e4ac64b0cbf6586f61d27adb2ddf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -111,8 +111,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,400..600&amp;display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b0c0e'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23f0a63a'/%3E%3Ccircle cx='16' cy='16' r='10.5' fill='none' stroke='%23f0a63a' stroke-opacity='.55' stroke-width='1.5'/%3E%3C/svg%3E">
 
 
+<link rel="stylesheet" href="assets/report.css">
 </head>
 
 <body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
@@ -132,8 +137,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Story</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./report.html" aria-current="page"> 
 <span class="menu-text">Report</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./AI_prompts.html"> 
+<span class="menu-text">AI log</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -206,7 +219,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>I used 6,990,280 Yelp reviews to find the best places for local food in New Orleans: Cajun and Creole cooking, Southern food, soul food and seafood. Two things came out. <strong>The ten best restaurants are spread over 6 parts of the city, and only 2 of them are in the French Quarter.</strong> And <strong>the part of town where your chance of walking into a great place is highest is Mid-City / Tremé / Bayou St.&nbsp;John</strong>, not the tourist centre. A top-ten list from star ratings is never exact, so for every restaurant I also report how likely it is to really belong in the top ten.</p>
+<p>I used 6,990,280 Yelp reviews to find the best places for local food in New Orleans: Cajun and Creole cooking, Southern food, soul food and seafood. Two things came out. <strong>The ten best restaurants are spread over 6 parts of the city, and only 2 of them are in the French Quarter.</strong> And <strong>the part of town where your chance of walking into a great place is highest is Mid-City / Tremé / Bayou St.&nbsp;John</strong>, not the tourist center. A top-ten list from star ratings is never exact, so for every restaurant I also report how likely it is to really belong in the top ten.</p>
 </div>
 </div>
 <section id="executive-summary" class="level2">
@@ -499,7 +512,7 @@ Table&nbsp;2: Time and peak memory for three ways of getting the Louisiana revie
 </section>
 <section id="what-counts-as-a-new-orleans-restaurant" class="level2">
 <h2 class="anchored" data-anchor-id="what-counts-as-a-new-orleans-restaurant">What counts as a New Orleans restaurant</h2>
-<p>A restaurant is any business whose Yelp categories include “Restaurants”, as in the assignment. It is <strong>in New Orleans</strong> if its coordinates fall inside the official Census boundary of the city. I did not use Yelp’s city field, because it is typed by hand: 57 restaurants labelled “New Orleans” lie outside the boundary, in suburbs such as Elmwood, Jefferson and Harahan, and 4 inside it carry another city name. The boundary gives 2,208 restaurants, 1,355 of them still open when the data end.</p>
+<p>A restaurant is any business whose Yelp categories include “Restaurants”, as in the assignment. It is <strong>in New Orleans</strong> if its coordinates fall inside the official Census boundary of the city. I did not use Yelp’s city field, because it is typed by hand: 57 restaurants labeled “New Orleans” lie outside the boundary, in suburbs such as Elmwood, Jefferson and Harahan, and 4 inside it carry another city name. The boundary gives 2,208 restaurants, 1,355 of them still open when the data end.</p>
 <p>Closed restaurants are not ranked, because nobody can go to them. Their reviews are still used to learn each reviewer’s habits.</p>
 </section>
 <section id="the-theme-local-food" class="level2">
@@ -928,7 +941,7 @@ Figure&nbsp;3: Most census tracts and block groups hold one or two restaurants.
 <li><strong>Neighborhoods have names people use</strong>, but 40 of the 56 that contain a restaurant have fewer than five, which leaves 22% of restaurants out of any comparison.</li>
 <li><strong>Parts of town are how the city is usually described</strong>: Uptown, Mid-City, Marigny and Bywater. They are the City Planning Commission’s official grouping of the same neighborhoods, and almost every restaurant sits in a part of town large enough to compare.</li>
 </ul>
-<p>The planning district file carries only numbers, so the names are mine, following the names the Commission uses. I labelled District 4 “Mid-City / Tremé / Bayou St.&nbsp;John” instead of the short official “Mid-City”, for a reason that appears in the results.</p>
+<p>The planning district file carries only numbers, so the names are mine, following the names the Commission uses. I labeled District 4 “Mid-City / Tremé / Bayou St.&nbsp;John” instead of the short official “Mid-City”, for a reason that appears in the results.</p>
 </section>
 <section id="reviewers-and-a-score-adjusted-for-their-habits" class="level2">
 <h2 class="anchored" data-anchor-id="reviewers-and-a-score-adjusted-for-their-habits">Reviewers, and a score adjusted for their habits</h2>
@@ -1392,7 +1405,7 @@ Figure&nbsp;7: The same result on the map.
 <li>It stays first if “great” means the best 20% or the best 33% of the city. With the best 10% only 24 restaurants are left in the whole city, the count per area drops to two or three, and Uptown / Carrollton comes first.</li>
 <li>I tried 24 other ways of scoring an area (three sets of restaurants, eight measures). No area wins them all, which is what a close race looks like. The list is in <a href="https://github.com/JamV8/where-to-eat-local-in-new-orleans/blob/main/results/area_method_robustness.csv"><code>results/area_method_robustness.csv</code></a>.</li>
 </ul>
-<p><strong>The tourist centre is not where the best local food is.</strong> This part of the answer is firmer. The French Quarter and the CBD together hold 54% of the ranked restaurants, but their average restaurant is rated 3.83 against 4.00 in the rest of the city: a difference of 0.17 stars (95% interval 0.07 to 0.27). On the share of great restaurants the gap points the same way, 21% against 30%, but with this many restaurants it could still be chance (p = 0.16).</p>
+<p><strong>The tourist center is not where the best local food is.</strong> This part of the answer is firmer. The French Quarter and the CBD together hold 54% of the ranked restaurants, but their average restaurant is rated 3.83 against 4.00 in the rest of the city: a difference of 0.17 stars (95% interval 0.07 to 0.27). On the share of great restaurants the gap points the same way, 21% against 30%, but with this many restaurants it could still be chance (p = 0.16).</p>
 <p><strong>Inside the winning part of town.</strong> The second level shows where exactly to go.</p>
 <div class="cell">
 <details class="code-fold">
@@ -1648,7 +1661,7 @@ Table&nbsp;14: Self-check results.
 <ul>
 <li><strong>The data end in January 2022.</strong> “Open” means open then. Some of these restaurants have closed since and new ones are missing.</li>
 <li><strong>Yelp reviewers are not a random sample of diners.</strong> A rating reflects the people who chose to write, and tourists and residents write for different reasons.</li>
-<li><strong>Yelp’s labels are loose.</strong> The top ten contains a fried-chicken chain from Tennessee labelled “Southern”. A few steakhouses are in the theme because they carry “Seafood”. The Seafood exception also removes a few places most people would call local, because Yelp gives them a French or Italian label.</li>
+<li><strong>Yelp’s labels are loose.</strong> The top ten contains a fried-chicken chain from Tennessee labeled “Southern”. A few steakhouses are in the theme because they carry “Seafood”. The Seafood exception also removes a few places most people would call local, because Yelp gives them a French or Italian label.</li>
 <li><strong>155 of the 386 open restaurants are not ranked</strong>, because they have fewer than 30 reviews from active reviewers. New and small places are invisible here.</li>
 <li><strong>The adjusted score rests on a small group</strong>: 4.9% of reviewers, the most active ones. Their taste may differ from an ordinary visitor’s.</li>
 <li><strong>Only 7 parts of town could be compared.</strong> New Orleans East, Gentilly, Algiers and the Lower Ninth Ward have too few ranked restaurants to say anything.</li>
@@ -1658,7 +1671,7 @@ Table&nbsp;14: Self-check results.
 </section>
 <section id="reproduce-it" class="level2">
 <h2 class="anchored" data-anchor-id="reproduce-it">Reproduce it</h2>
-<p>The scripts run in order from the project root. Only the first one and the benchmark need the raw Yelp files; everything else runs from the filtered tables in the repository.</p>
+<p>The scripts run in order from the project root. The first one and the benchmark read the raw Yelp files, and scripts 04 and 05 read an intermediate review file that the first one creates. From script 06 on, everything runs from the filtered tables in the repository.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -1714,6 +1727,10 @@ Table&nbsp;14: Self-check results.
 <tr class="odd">
 <td><code>R/11_import_benchmark.R</code></td>
 <td>Measures three ways of reading the review file</td>
+</tr>
+<tr class="even">
+<td><code>R/12_site_data.R</code></td>
+<td>Exports the data the story site draws</td>
 </tr>
 </tbody>
 </table>
@@ -2312,7 +2329,7 @@ Table&nbsp;14: Self-check results.
 <span id="cb15-35"><a href="#cb15-35" aria-hidden="true" tabindex="-1"></a>areas      <span class="ot">&lt;-</span> <span class="fu">res</span>(<span class="st">"area_scores.csv"</span>)</span>
 <span id="cb15-36"><a href="#cb15-36" aria-hidden="true" tabindex="-1"></a>cutoffs    <span class="ot">&lt;-</span> <span class="fu">res</span>(<span class="st">"area_cutoff_sensitivity.csv"</span>)</span>
 <span id="cb15-37"><a href="#cb15-37" aria-hidden="true" tabindex="-1"></a>robust     <span class="ot">&lt;-</span> <span class="fu">res</span>(<span class="st">"area_method_robustness.csv"</span>)</span>
-<span id="cb15-38"><a href="#cb15-38" aria-hidden="true" tabindex="-1"></a>centre     <span class="ot">&lt;-</span> <span class="fu">res</span>(<span class="st">"centre_vs_rest.csv"</span>)</span>
+<span id="cb15-38"><a href="#cb15-38" aria-hidden="true" tabindex="-1"></a>center     <span class="ot">&lt;-</span> <span class="fu">res</span>(<span class="st">"center_vs_rest.csv"</span>)</span>
 <span id="cb15-39"><a href="#cb15-39" aria-hidden="true" tabindex="-1"></a>beats_fq   <span class="ot">&lt;-</span> <span class="fu">res</span>(<span class="st">"beats_french_quarter.csv"</span>)</span>
 <span id="cb15-40"><a href="#cb15-40" aria-hidden="true" tabindex="-1"></a>nbhd       <span class="ot">&lt;-</span> <span class="fu">res</span>(<span class="st">"neighborhood_scores.csv"</span>)</span>
 <span id="cb15-41"><a href="#cb15-41" aria-hidden="true" tabindex="-1"></a>checks     <span class="ot">&lt;-</span> <span class="fu">res</span>(<span class="st">"checks.csv"</span>)</span>
@@ -2338,8 +2355,8 @@ Table&nbsp;14: Self-check results.
 <span id="cb15-61"><a href="#cb15-61" aria-hidden="true" tabindex="-1"></a>second       <span class="ot">&lt;-</span> compared[<span class="dv">2</span>, ]</span>
 <span id="cb15-62"><a href="#cb15-62" aria-hidden="true" tabindex="-1"></a>fq           <span class="ot">&lt;-</span> compared[compared<span class="sc">$</span>part_of_town <span class="sc">==</span> <span class="st">"French Quarter"</span>, ]</span>
 <span id="cb15-63"><a href="#cb15-63" aria-hidden="true" tabindex="-1"></a>great_cut    <span class="ot">&lt;-</span> cutoffs<span class="sc">$</span>rating_cut[cutoffs<span class="sc">$</span>great_means_best <span class="sc">==</span> <span class="st">"25%"</span>]</span>
-<span id="cb15-64"><a href="#cb15-64" aria-hidden="true" tabindex="-1"></a>tourist      <span class="ot">&lt;-</span> centre[centre<span class="sc">$</span>where <span class="sc">==</span> <span class="st">"Tourist centre"</span>, ]</span>
-<span id="cb15-65"><a href="#cb15-65" aria-hidden="true" tabindex="-1"></a>rest         <span class="ot">&lt;-</span> centre[centre<span class="sc">$</span>where <span class="sc">==</span> <span class="st">"Rest of the city"</span>, ]</span>
+<span id="cb15-64"><a href="#cb15-64" aria-hidden="true" tabindex="-1"></a>tourist      <span class="ot">&lt;-</span> center[center<span class="sc">$</span>where <span class="sc">==</span> <span class="st">"Tourist center"</span>, ]</span>
+<span id="cb15-65"><a href="#cb15-65" aria-hidden="true" tabindex="-1"></a>rest         <span class="ot">&lt;-</span> center[center<span class="sc">$</span>where <span class="sc">==</span> <span class="st">"Rest of the city"</span>, ]</span>
 <span id="cb15-66"><a href="#cb15-66" aria-hidden="true" tabindex="-1"></a>bench        <span class="ot">&lt;-</span> <span class="cf">function</span>(m, col) benchmark[benchmark<span class="sc">$</span>method <span class="sc">==</span> m, col]</span>
 <span id="cb15-67"><a href="#cb15-67" aria-hidden="true" tabindex="-1"></a>geo_open     <span class="ot">&lt;-</span> <span class="cf">function</span>(system, col) geography[geography<span class="sc">$</span>scope <span class="sc">==</span> <span class="st">"open"</span> <span class="sc">&amp;</span> geography<span class="sc">$</span>system <span class="sc">==</span> system, col]</span>
 <span id="cb15-68"><a href="#cb15-68" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
@@ -2351,7 +2368,7 @@ Table&nbsp;14: Self-check results.
 <span id="cb15-74"><a href="#cb15-74" aria-hidden="true" tabindex="-1"></a>restaurants are spread over <span class="in">`r n_distinct(top10$part_of_town)`</span> parts of the city, and only</span>
 <span id="cb15-75"><a href="#cb15-75" aria-hidden="true" tabindex="-1"></a><span class="in">`r sum(top10$part_of_town == "French Quarter")`</span> of them are in the French Quarter.**</span>
 <span id="cb15-76"><a href="#cb15-76" aria-hidden="true" tabindex="-1"></a>And **the part of town where your chance of walking into a great place is highest is</span>
-<span id="cb15-77"><a href="#cb15-77" aria-hidden="true" tabindex="-1"></a><span class="in">`r leader$part_of_town`</span>**, not the tourist centre. A top-ten list from star ratings is never exact, so</span>
+<span id="cb15-77"><a href="#cb15-77" aria-hidden="true" tabindex="-1"></a><span class="in">`r leader$part_of_town`</span>**, not the tourist center. A top-ten list from star ratings is never exact, so</span>
 <span id="cb15-78"><a href="#cb15-78" aria-hidden="true" tabindex="-1"></a>for every restaurant I also report how likely it is to really belong in the top ten.</span>
 <span id="cb15-79"><a href="#cb15-79" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb15-80"><a href="#cb15-80" aria-hidden="true" tabindex="-1"></a></span>
@@ -2464,7 +2481,7 @@ Table&nbsp;14: Self-check results.
 <span id="cb15-191"><a href="#cb15-191" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-192"><a href="#cb15-192" aria-hidden="true" tabindex="-1"></a>A restaurant is any business whose Yelp categories include "Restaurants", as in the assignment.</span>
 <span id="cb15-193"><a href="#cb15-193" aria-hidden="true" tabindex="-1"></a>It is **in New Orleans** if its coordinates fall inside the official Census boundary of the city.</span>
-<span id="cb15-194"><a href="#cb15-194" aria-hidden="true" tabindex="-1"></a>I did not use Yelp's city field, because it is typed by hand: <span class="in">`r label_out`</span> restaurants labelled</span>
+<span id="cb15-194"><a href="#cb15-194" aria-hidden="true" tabindex="-1"></a>I did not use Yelp's city field, because it is typed by hand: <span class="in">`r label_out`</span> restaurants labeled</span>
 <span id="cb15-195"><a href="#cb15-195" aria-hidden="true" tabindex="-1"></a>"New Orleans" lie outside the boundary, in suburbs such as Elmwood, Jefferson and Harahan, and</span>
 <span id="cb15-196"><a href="#cb15-196" aria-hidden="true" tabindex="-1"></a><span class="in">`r label_other`</span> inside it carry another city name. The boundary gives <span class="in">`r n(in_city)`</span> restaurants, <span class="in">`r n(sum(business$is_open == 1))`</span> of</span>
 <span id="cb15-197"><a href="#cb15-197" aria-hidden="true" tabindex="-1"></a>them still open when the data end.</span>
@@ -2579,7 +2596,7 @@ Table&nbsp;14: Self-check results.
 <span id="cb15-316"><a href="#cb15-316" aria-hidden="true" tabindex="-1"></a>  every restaurant sits in a part of town large enough to compare.</span>
 <span id="cb15-317"><a href="#cb15-317" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-318"><a href="#cb15-318" aria-hidden="true" tabindex="-1"></a>The planning district file carries only numbers, so the names are mine, following the names the</span>
-<span id="cb15-319"><a href="#cb15-319" aria-hidden="true" tabindex="-1"></a>Commission uses. I labelled District 4 "Mid-City / Tremé / Bayou St. John" instead of the short</span>
+<span id="cb15-319"><a href="#cb15-319" aria-hidden="true" tabindex="-1"></a>Commission uses. I labeled District 4 "Mid-City / Tremé / Bayou St. John" instead of the short</span>
 <span id="cb15-320"><a href="#cb15-320" aria-hidden="true" tabindex="-1"></a>official "Mid-City", for a reason that appears in the results.</span>
 <span id="cb15-321"><a href="#cb15-321" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-322"><a href="#cb15-322" aria-hidden="true" tabindex="-1"></a><span class="fu">## Reviewers, and a score adjusted for their habits</span></span>
@@ -2724,7 +2741,7 @@ Table&nbsp;14: Self-check results.
 <span id="cb15-471"><a href="#cb15-471" aria-hidden="true" tabindex="-1"></a>  them all, which is what a close race looks like. The list is in</span>
 <span id="cb15-472"><a href="#cb15-472" aria-hidden="true" tabindex="-1"></a>  <span class="co">[</span><span class="ot">`results/area_method_robustness.csv`</span><span class="co">](https://github.com/JamV8/where-to-eat-local-in-new-orleans/blob/main/results/area_method_robustness.csv)</span>.</span>
 <span id="cb15-473"><a href="#cb15-473" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-474"><a href="#cb15-474" aria-hidden="true" tabindex="-1"></a>**The tourist centre is not where the best local food is.** This part of the answer is firmer. The</span>
+<span id="cb15-474"><a href="#cb15-474" aria-hidden="true" tabindex="-1"></a>**The tourist center is not where the best local food is.** This part of the answer is firmer. The</span>
 <span id="cb15-475"><a href="#cb15-475" aria-hidden="true" tabindex="-1"></a>French Quarter and the CBD together hold <span class="in">`r pct(tourist$restaurants / n_ranked)`</span> of the ranked</span>
 <span id="cb15-476"><a href="#cb15-476" aria-hidden="true" tabindex="-1"></a>restaurants, but their average</span>
 <span id="cb15-477"><a href="#cb15-477" aria-hidden="true" tabindex="-1"></a>restaurant is rated <span class="in">`r f2(tourist$average_rating)`</span> against <span class="in">`r f2(rest$average_rating)`</span> in the rest of</span>
@@ -2773,7 +2790,7 @@ Table&nbsp;14: Self-check results.
 <span id="cb15-524"><a href="#cb15-524" aria-hidden="true" tabindex="-1"></a>  since and new ones are missing.</span>
 <span id="cb15-525"><a href="#cb15-525" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Yelp reviewers are not a random sample of diners.** A rating reflects the people who chose to</span>
 <span id="cb15-526"><a href="#cb15-526" aria-hidden="true" tabindex="-1"></a>  write, and tourists and residents write for different reasons.</span>
-<span id="cb15-527"><a href="#cb15-527" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Yelp's labels are loose.** The top ten contains a fried-chicken chain from Tennessee labelled</span>
+<span id="cb15-527"><a href="#cb15-527" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Yelp's labels are loose.** The top ten contains a fried-chicken chain from Tennessee labeled</span>
 <span id="cb15-528"><a href="#cb15-528" aria-hidden="true" tabindex="-1"></a>  "Southern". A few steakhouses are in the theme because they carry "Seafood". The Seafood exception</span>
 <span id="cb15-529"><a href="#cb15-529" aria-hidden="true" tabindex="-1"></a>  also removes a few places most people would call local, because Yelp gives them a French or</span>
 <span id="cb15-530"><a href="#cb15-530" aria-hidden="true" tabindex="-1"></a>  Italian label.</span>
@@ -2792,28 +2809,30 @@ Table&nbsp;14: Self-check results.
 <span id="cb15-543"><a href="#cb15-543" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-544"><a href="#cb15-544" aria-hidden="true" tabindex="-1"></a><span class="fu">## Reproduce it</span></span>
 <span id="cb15-545"><a href="#cb15-545" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-546"><a href="#cb15-546" aria-hidden="true" tabindex="-1"></a>The scripts run in order from the project root. Only the first one and the benchmark need the raw</span>
-<span id="cb15-547"><a href="#cb15-547" aria-hidden="true" tabindex="-1"></a>Yelp files; everything else runs from the filtered tables in the repository.</span>
-<span id="cb15-548"><a href="#cb15-548" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-549"><a href="#cb15-549" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Script <span class="pp">|</span> What it does <span class="pp">|</span></span>
-<span id="cb15-550"><a href="#cb15-550" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|</span></span>
-<span id="cb15-551"><a href="#cb15-551" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/01_import.R`</span> <span class="pp">|</span> Reads the raw JSON in chunks, keeps Louisiana <span class="pp">|</span></span>
-<span id="cb15-552"><a href="#cb15-552" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/02_boundaries.R`</span> <span class="pp">|</span> Downloads the city boundary and six sets of area boundaries <span class="pp">|</span></span>
-<span id="cb15-553"><a href="#cb15-553" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/03_clean.R`</span> <span class="pp">|</span> Defines New Orleans restaurants, attaches every area label <span class="pp">|</span></span>
-<span id="cb15-554"><a href="#cb15-554" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/04_theme_candidates.R`</span> <span class="pp">|</span> Compares ten candidate themes <span class="pp">|</span></span>
-<span id="cb15-555"><a href="#cb15-555" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/05_theme.R`</span> <span class="pp">|</span> Builds the local-food theme, category counts and co-occurrence <span class="pp">|</span></span>
-<span id="cb15-556"><a href="#cb15-556" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/06_geography.R`</span> <span class="pp">|</span> Compares the six geographic systems <span class="pp">|</span></span>
-<span id="cb15-557"><a href="#cb15-557" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/07_scores.R`</span> <span class="pp">|</span> Reviewer baselines, ordinary average and adjusted score <span class="pp">|</span></span>
-<span id="cb15-558"><a href="#cb15-558" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/08_top10.R`</span> <span class="pp">|</span> Top ten, intervals, bootstrap, map <span class="pp">|</span></span>
-<span id="cb15-559"><a href="#cb15-559" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/09_areas.R`</span> <span class="pp">|</span> Scores for parts of town and neighborhoods <span class="pp">|</span></span>
-<span id="cb15-560"><a href="#cb15-560" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/10_checks.R`</span> <span class="pp">|</span> Self-check <span class="pp">|</span></span>
-<span id="cb15-561"><a href="#cb15-561" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/11_import_benchmark.R`</span> <span class="pp">|</span> Measures three ways of reading the review file <span class="pp">|</span></span>
-<span id="cb15-562"><a href="#cb15-562" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-563"><a href="#cb15-563" aria-hidden="true" tabindex="-1"></a>Package versions are recorded in <span class="in">`renv.lock`</span>. The random seed is 9426.</span>
+<span id="cb15-546"><a href="#cb15-546" aria-hidden="true" tabindex="-1"></a>The scripts run in order from the project root. The first one and the benchmark read the raw Yelp</span>
+<span id="cb15-547"><a href="#cb15-547" aria-hidden="true" tabindex="-1"></a>files, and scripts 04 and 05 read an intermediate review file that the first one creates. From</span>
+<span id="cb15-548"><a href="#cb15-548" aria-hidden="true" tabindex="-1"></a>script 06 on, everything runs from the filtered tables in the repository.</span>
+<span id="cb15-549"><a href="#cb15-549" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-550"><a href="#cb15-550" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Script <span class="pp">|</span> What it does <span class="pp">|</span></span>
+<span id="cb15-551"><a href="#cb15-551" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|</span></span>
+<span id="cb15-552"><a href="#cb15-552" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/01_import.R`</span> <span class="pp">|</span> Reads the raw JSON in chunks, keeps Louisiana <span class="pp">|</span></span>
+<span id="cb15-553"><a href="#cb15-553" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/02_boundaries.R`</span> <span class="pp">|</span> Downloads the city boundary and six sets of area boundaries <span class="pp">|</span></span>
+<span id="cb15-554"><a href="#cb15-554" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/03_clean.R`</span> <span class="pp">|</span> Defines New Orleans restaurants, attaches every area label <span class="pp">|</span></span>
+<span id="cb15-555"><a href="#cb15-555" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/04_theme_candidates.R`</span> <span class="pp">|</span> Compares ten candidate themes <span class="pp">|</span></span>
+<span id="cb15-556"><a href="#cb15-556" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/05_theme.R`</span> <span class="pp">|</span> Builds the local-food theme, category counts and co-occurrence <span class="pp">|</span></span>
+<span id="cb15-557"><a href="#cb15-557" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/06_geography.R`</span> <span class="pp">|</span> Compares the six geographic systems <span class="pp">|</span></span>
+<span id="cb15-558"><a href="#cb15-558" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/07_scores.R`</span> <span class="pp">|</span> Reviewer baselines, ordinary average and adjusted score <span class="pp">|</span></span>
+<span id="cb15-559"><a href="#cb15-559" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/08_top10.R`</span> <span class="pp">|</span> Top ten, intervals, bootstrap, map <span class="pp">|</span></span>
+<span id="cb15-560"><a href="#cb15-560" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/09_areas.R`</span> <span class="pp">|</span> Scores for parts of town and neighborhoods <span class="pp">|</span></span>
+<span id="cb15-561"><a href="#cb15-561" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/10_checks.R`</span> <span class="pp">|</span> Self-check <span class="pp">|</span></span>
+<span id="cb15-562"><a href="#cb15-562" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/11_import_benchmark.R`</span> <span class="pp">|</span> Measures three ways of reading the review file <span class="pp">|</span></span>
+<span id="cb15-563"><a href="#cb15-563" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`R/12_site_data.R`</span> <span class="pp">|</span> Exports the data the story site draws <span class="pp">|</span></span>
 <span id="cb15-564"><a href="#cb15-564" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-565"><a href="#cb15-565" aria-hidden="true" tabindex="-1"></a>**Sources.** <span class="co">[</span><span class="ot">Yelp Open Dataset</span><span class="co">](https://business.yelp.com/data/resources/open-dataset/)</span>;</span>
-<span id="cb15-566"><a href="#cb15-566" aria-hidden="true" tabindex="-1"></a>U.S. Census Bureau boundaries through the <span class="co">[</span><span class="ot">`tigris`</span><span class="co">](https://walker-data.com/tigris/)</span> package;</span>
-<span id="cb15-567"><a href="#cb15-567" aria-hidden="true" tabindex="-1"></a>neighborhoods, wards and planning districts from <span class="co">[</span><span class="ot">data.nola.gov</span><span class="co">](https://data.nola.gov/)</span>.</span>
+<span id="cb15-565"><a href="#cb15-565" aria-hidden="true" tabindex="-1"></a>Package versions are recorded in <span class="in">`renv.lock`</span>. The random seed is 9426.</span>
+<span id="cb15-566"><a href="#cb15-566" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-567"><a href="#cb15-567" aria-hidden="true" tabindex="-1"></a>**Sources.** <span class="co">[</span><span class="ot">Yelp Open Dataset</span><span class="co">](https://business.yelp.com/data/resources/open-dataset/)</span>;</span>
+<span id="cb15-568"><a href="#cb15-568" aria-hidden="true" tabindex="-1"></a>U.S. Census Bureau boundaries through the <span class="co">[</span><span class="ot">`tigris`</span><span class="co">](https://walker-data.com/tigris/)</span> package;</span>
+<span id="cb15-569"><a href="#cb15-569" aria-hidden="true" tabindex="-1"></a>neighborhoods, wards and planning districts from <span class="co">[</span><span class="ot">data.nola.gov</span><span class="co">](https://data.nola.gov/)</span>.</span>
 </code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
