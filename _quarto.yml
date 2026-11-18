@@ -3,6 +3,11 @@ project:
   output-dir: docs
   render:
     - report.qmd
+    - AI_prompts.md
+  resources:
+    - index.html
+    - assets/
+    - .nojekyll
 
 website:
   title: "Where to Eat Local in New Orleans"
@@ -10,16 +15,28 @@ website:
   description: "Where is the best local food in New Orleans, and which part of town is best for finding it? An analysis of the Yelp Open Dataset in R."
   back-to-top-navigation: true
   navbar:
-    background: light
+    background: "#0b0c0e"
+    foreground: "#edece8"
     left:
+      - href: index.html
+        text: Story
       - href: report.qmd
         text: Report
+      - href: AI_prompts.md
+        text: AI log
   page-footer:
     center: "Dzhamal Chapanov · MATH 167R, Project 2 · Yelp Open Dataset · R + Quarto"
 
 format:
   html:
     theme: cosmo
+    css: assets/report.css
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400..600&display=swap" rel="stylesheet">
+        <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b0c0e'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23f0a63a'/%3E%3Ccircle cx='16' cy='16' r='10.5' fill='none' stroke='%23f0a63a' stroke-opacity='.55' stroke-width='1.5'/%3E%3C/svg%3E">
     toc: true
     toc-depth: 2
     code-fold: true

@@ -102,3 +102,12 @@ planning_districts <- read_nola("put8-sks2") |>
             part_of_town = unname(part_of_town_names[district_n]))
 stopifnot(!anyNA(planning_districts$part_of_town), !anyDuplicated(planning_districts$part_of_town))
 save_layer(planning_districts, "planning_districts")
+
+# Water, for the site's map only: the lake and the river are what make the outline of New Orleans
+# recognisable. Census area-water polygons for Orleans Parish, larger bodies only.
+water <- area_water("LA", "071", year = 2024) |>
+  st_transform(4326) |>
+  filter(AWATER > 3e5) |>
+  transmute(water_id = HYDROID, name = FULLNAME, square_km = AWATER / 1e6) |>
+  st_make_valid()
+save_layer(water, "water")

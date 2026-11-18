@@ -1,0 +1,30 @@
+/* The report and the AI log.
+   Same two typefaces and the same top bar as the story page, on a plain light page: this part is the homework,
+   so it stays sober. Gold appears once, on the "In plain words" box. */
+
+body { font-family: "Libre Franklin", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16.5px; line-height: 1.62; color: #26261f; }
+h1, h2, h3, h4 { font-family: "Newsreader", "Iowan Old Style", Georgia, serif; font-weight: 500; letter-spacing: -.012em; color: #14140f; }
+h1.title { font-size: 2.7rem; font-weight: 400; line-height: 1.06; letter-spacing: -.02em; }
+.quarto-title .subtitle, p.subtitle { font-family: "Libre Franklin", "Helvetica Neue", Arial, sans-serif; font-size: 1.1rem; line-height: 1.5; color: #5d5c55; }
+h2 { font-size: 1.8rem; margin-top: 2.8rem; padding-bottom: .4rem; border-bottom: 1px solid #dddbd3; }
+h3 { font-size: 1.32rem; margin-top: 1.9rem; }
+
+/* the top bar matches the story page */
+.navbar { min-height: 56px; border-bottom: 1px solid rgba(237, 236, 232, .14); font-family: "Libre Franklin", "Helvetica Neue", Arial, sans-serif; }
+.navbar .navbar-brand, .navbar .navbar-title { font-size: 14px; font-weight: 500; }
+.navbar .nav-link { font-size: 13.5px; color: #b3b2ad !important; }
+.navbar .nav-link.active, .navbar .nav-link:hover { color: #edece8 !important; }
+
+main a, .nav-footer a { color: #14140f; text-decoration-color: #b4b2a8; text-underline-offset: 3px; }
+main a:hover { text-decoration-color: currentColor; }
+
+div.callout-tip.callout { border-left-color: #f0a63a !important; }
+div.callout-tip.callout-style-default > .callout-header { background-color: #fcf4e4 !important; }
+div.callout-tip .callout-icon::before { filter: grayscale(1) brightness(.6) sepia(1) saturate(5) hue-rotate(-10deg); }
+
+table { font-variant-numeric: tabular-nums; }
+.table { font-size: .93em; }
+figcaption, .figure-caption { color: #5d5c55; font-size: .9rem; }
+.sidebar nav[role="doc-toc"] ul > li > a.active { border-left-color: #14140f; color: #14140f !important; }
+.sidebar nav[role="doc-toc"] ul > li > a:hover { color: #14140f !important; }
+.nav-footer { font-size: .84rem; color: #5d5c55; }
